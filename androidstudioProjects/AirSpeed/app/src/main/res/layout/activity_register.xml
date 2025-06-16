@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegisterActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/appicon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/icon"
+            android:foregroundGravity="center"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/lightgray" />
+
+        <EditText
+            android:id="@+id/account"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/line1"
+            android:background="@null"
+            android:inputType="phone"
+            android:maxLength="11"
+            android:hint="请输入11位电话号码"
+            android:textColorHint="@color/lightgray"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="15dp"/>
+
+        <View
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/lightgray"
+            android:layout_below="@+id/account"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/line2"
+            android:background="@null"
+            android:inputType="textPassword"
+            android:maxLength="16"
+            android:hint="请输入密码"
+            android:textColorHint="@color/lightgray"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="15dp"/>
+        <TextView
+            android:id="@+id/getcode"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/line2"
+            android:layout_toRightOf="@+id/password"
+            android:text="获取验证码"
+            android:textColor="@color/lightgray"
+            android:textSize="16sp"
+            android:autoLink="all"
+            android:gravity="center_vertical|right"
+            android:paddingRight="5dp"
+            />
+
+        <View
+            android:id="@+id/line3"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/lightgray"
+            android:layout_below="@+id/password"/>
+
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/line3"
+            android:layout_marginTop="40dp"
+            android:text="注册"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:background="@color/mycolor"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.air.airspeed.SelectBuyTime"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/select_buy_time"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor = "@color/black"
+        android:text = "请选择加速时间"/>
+
+    <com.air.airspeed.TextViewBorder
+        android:id = "@+id/hour"
+        android:clickable="true"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_gravity = "center"
+        android:gravity = "center"
+        android:padding = "20dp"
+        android:layout_margin = "30dp"
+        android:text = "1 元（1小时）"
+        android:textSize="24sp"
+        android:textColor = "@color/black"
+        app:borderColor = "@color/gray" />
+
+    <com.air.airspeed.TextViewBorder
+        android:id = "@+id/month"
+        android:clickable="true"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_gravity = "center"
+        android:gravity = "center"
+        android:padding="20dp"
+        android:layout_margin="30dp"
+        android:text="5 元（30天）"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        app:borderColor = "@color/gray"  />
+
+    <Button
+        android:id = "@+id/button_buy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingStart="50dp"
+        android:paddingEnd="50dp"
+        android:background="@color/red"
+        android:textColor="@color/white"
+        android:text = "立即购买"
+        android:textSize="24sp"/>
+
+
+</LinearLayout>

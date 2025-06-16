@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MemberCenterActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="@color/mycolor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/backarrow"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="0dp"
+            android:src="@drawable/backarrow" />
+
+        <TextView
+            android:id="@+id/backtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_toEndOf="@+id/backarrow"
+            android:layout_toRightOf="@+id/backarrow"
+            android:paddingLeft="1dp"
+            android:text="会员中心"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/darkgrey"
+        app:layout_constraintTop_toBottomOf="@id/relativeLayout1">
+
+        <ImageView
+            android:id="@+id/head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/head" />
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/head"
+            android:paddingLeft="3dp"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/star"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="1dp"
+            android:layout_toLeftOf="@id/date"
+            android:src="@drawable/star" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="1dp"
+            android:layout_toLeftOf="@+id/datech"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/datech"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="到期"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/white"
+            android:textSize="14sp"/>
+    </RelativeLayout>
+
+    <com.air.airspeed.TextViewBorder
+        android:id="@+id/hour"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:gravity="right"
+        android:paddingLeft="35dp"
+        android:paddingTop="20dp"
+        android:paddingRight="45dp"
+        android:text="1小时               1  元"
+        android:textColor="@color/mycolor"
+        android:textSize="16sp"
+        app:borderColor="@color/mycolor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout2" />
+
+    <com.air.airspeed.TextViewBorder
+        android:id="@+id/month"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:clickable="true"
+        android:gravity="right"
+        android:paddingLeft="35dp"
+        android:paddingTop="20dp"
+        android:paddingRight="45dp"
+        android:text="30天               5  元"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:borderColor="@color/mycolor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/hour"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout2" />
+
+    <com.air.airspeed.TextViewBorder
+        android:id="@+id/season"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        android:gravity="right"
+        android:paddingLeft="35dp"
+        android:paddingTop="20dp"
+        android:paddingRight="45dp"
+        android:text="90天            15元"
+        android:textColor="@color/mycolor"
+        android:textSize="16sp"
+        app:borderColor="@color/mycolor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hour" />
+
+    <com.air.airspeed.TextViewBorder
+        android:id="@+id/halfyear"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:clickable="true"
+        android:gravity="right"
+        android:paddingLeft="35dp"
+        android:paddingTop="20dp"
+        android:paddingRight="45dp"
+        android:text="180天              20  元"
+        android:textColor="@color/mycolor"
+        android:textSize="16sp"
+        app:borderColor="@color/mycolor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toRightOf="@+id/season"
+        app:layout_constraintTop_toBottomOf="@+id/month" />
+
+    <View
+        android:id="@+id/line1"
+        android:layout_width="100dp"
+        android:layout_height="2dp"
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="35dp"
+        android:background="@color/lightgray"
+        android:foregroundGravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/season" />
+
+    <TextView
+
+        android:id="@+id/member"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="会员特权"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:gravity="center"
+        app:layout_constraintLeft_toRightOf="@+id/line1"
+        app:layout_constraintTop_toBottomOf="@+id/season" />
+
+    <View
+        android:id="@+id/line2"
+        android:layout_width="100dp"
+        android:layout_height="2dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="35dp"
+        android:background="@color/lightgray"
+        app:layout_constraintLeft_toRightOf="@+id/member"
+        app:layout_constraintTop_toBottomOf="@+id/halfyear" />
+
+    <TextView
+        android:id="@+id/disp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="10dp"
+        android:text="全球应用加速       4G畅享加速           智能云端加速"
+        android:textColor="@color/lightgray"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/member" />
+
+    <Button
+        android:id="@+id/buy"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/mycolor"
+        android:text="立即购买"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/disp" />
+
+</android.support.constraint.ConstraintLayout>
