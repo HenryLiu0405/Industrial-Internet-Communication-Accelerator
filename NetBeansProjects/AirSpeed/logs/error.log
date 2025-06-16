@@ -1,0 +1,29 @@
+2019-10-23 08:02:50 [ pool-78-thread-1:404934350 ] - [ ERROR ] I/O reactor terminated abnormally
+org.apache.http.nio.reactor.IOReactorException: Failure opening selector
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.<init>(AbstractIOReactor.java:103)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.<init>(BaseIOReactor.java:85)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:318)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:221)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.io.IOException: Unable to establish loopback connection
+	at sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:94)
+	at sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:61)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.nio.ch.PipeImpl.<init>(PipeImpl.java:171)
+	at sun.nio.ch.SelectorProviderImpl.openPipe(SelectorProviderImpl.java:50)
+	at java.nio.channels.Pipe.open(Pipe.java:155)
+	at sun.nio.ch.WindowsSelectorImpl.<init>(WindowsSelectorImpl.java:127)
+	at sun.nio.ch.WindowsSelectorProvider.openSelector(WindowsSelectorProvider.java:44)
+	at java.nio.channels.Selector.open(Selector.java:227)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.<init>(AbstractIOReactor.java:101)
+	... 5 more
+Caused by: java.net.SocketException: Permission denied: connect
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at java.nio.channels.SocketChannel.open(SocketChannel.java:189)
+	at sun.nio.ch.PipeImpl$Initializer$LoopbackConnector.run(PipeImpl.java:127)
+	at sun.nio.ch.PipeImpl$Initializer.run(PipeImpl.java:76)
+	... 14 more

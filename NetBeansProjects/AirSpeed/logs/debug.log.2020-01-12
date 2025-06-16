@@ -1,0 +1,455 @@
+2020-01-12 09:29:57 [ http-bio-8080-exec-9:65036164 ] - [ INFO ] response is {"params":{"RemoteAddress":"8.8.8.8","LocalAddress":"10.8.0.2","PackageName":"com.ximalaya.ting.android","LocalPort":"-16132","RemotePort":"53","Protocol":"2","Result":"success","AppName":"喜马拉雅"}} 1
+2020-01-12 09:29:57 [ http-bio-8080-exec-9:65036179 ] - [ INFO ] received speed item 8.8.8.8 -16132 1
+2020-01-12 09:29:57 [ http-bio-8080-exec-9:65036336 ] - [ INFO ] RequestDAO is 8.8.8.8 -16132 1
+2020-01-12 09:29:57 [ http-bio-8080-exec-9:65036336 ] - [ INFO ] netinfo has added into the queue 8.8.8.8 -16132 1
+2020-01-12 09:29:57 [ http-bio-8080-exec-9:65036506 ] - [ DEBUG ] [exchange: 7] start execution
+2020-01-12 09:29:57 [ http-bio-8080-exec-9:65036506 ] - [ DEBUG ] CookieSpec selected: default
+2020-01-12 09:29:57 [ http-bio-8080-exec-9:65036507 ] - [ DEBUG ] Auth cache not set in the context
+2020-01-12 09:29:57 [ http-bio-8080-exec-9:65036507 ] - [ DEBUG ] [exchange: 7] Request connection for {}->http://4gqos.h2comm.com.cn:8090
+2020-01-12 09:29:57 [ http-bio-8080-exec-9:65036507 ] - [ DEBUG ] Connection request: [route: {}->http://4gqos.h2comm.com.cn:8090][total kept alive: 0; route allocated: 0 of 100; total allocated: 0 of 100]
+2020-01-12 09:29:57 [ http-bio-8080-exec-9:65036547 ] - [ INFO ] AsynPost has sent {"Partner_ID":"moonbay","security_token":"","ResourceFeatureProperties":[{"FlowProperties":[{"DestinationIpAddress":"8.8.8.8","MaximumUpStreamSpeedRate":"204800","MaximumDownStreamSpeedRate":"204800","Protocol":"2","Direction":"2","DestinationPort":"53"}],"Type":"0","Priority":"15"},{"MinimumDownStreamSpeedRate":"51200","MinimumUpStreamSpeedRate":"51200"}],"Duration":"300","UserIdentifier":{"PublicIP":"183.193.178.9","IP":"10.8.0.2"},"ServiceId":"Games100K"}
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036601 ] - [ DEBUG ] Connection leased: [id: http-outgoing-6][route: {}->http://4gqos.h2comm.com.cn:8090][total kept alive: 0; route allocated: 1 of 100; total allocated: 0 of 100]
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036602 ] - [ DEBUG ] [exchange: 7] Connection allocated: CPoolProxy{http-outgoing-6 [ACTIVE]}
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036602 ] - [ DEBUG ] http-outgoing-6 192.168.3.7:55542<->120.52.72.82:8090[ACTIVE][r:]: Set attribute http.nio.exchange-handler
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036602 ] - [ DEBUG ] http-outgoing-6 192.168.3.7:55542<->120.52.72.82:8090[ACTIVE][rw:]: Event set [w]
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036602 ] - [ DEBUG ] http-outgoing-6 192.168.3.7:55542<->120.52.72.82:8090[ACTIVE][rw:]: Set timeout 0
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036602 ] - [ DEBUG ] http-outgoing-6 [ACTIVE]: Connected
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036602 ] - [ DEBUG ] http-outgoing-6 192.168.3.7:55542<->120.52.72.82:8090[ACTIVE][rw:]: Set attribute http.nio.http-exchange-state
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036603 ] - [ DEBUG ] [exchange: 7] Start connection routing
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036603 ] - [ DEBUG ] [exchange: 7] route completed
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036603 ] - [ DEBUG ] [exchange: 7] Connection route established
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036603 ] - [ DEBUG ] [exchange: 7] Attempt 1 to execute request
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036603 ] - [ DEBUG ] [exchange: 7] Target auth state: UNCHALLENGED
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036603 ] - [ DEBUG ] [exchange: 7] Proxy auth state: UNCHALLENGED
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036603 ] - [ DEBUG ] http-outgoing-6 192.168.3.7:55542<->120.52.72.82:8090[ACTIVE][rw:]: Set timeout 50000
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036603 ] - [ DEBUG ] http-outgoing-6 >> POST /ivsp/services/AACAPIV1/applyTecentGamesQoS HTTP/1.1
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036603 ] - [ DEBUG ] http-outgoing-6 >> Content-Type: application/json;charset=utf-8
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036603 ] - [ DEBUG ] http-outgoing-6 >> Accept: application/json
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036603 ] - [ DEBUG ] http-outgoing-6 >> Content-Length: 462
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036603 ] - [ DEBUG ] http-outgoing-6 >> Host: 4gqos.h2comm.com.cn:8090
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036603 ] - [ DEBUG ] http-outgoing-6 >> Connection: Keep-Alive
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036603 ] - [ DEBUG ] http-outgoing-6 >> User-Agent: Apache-HttpAsyncClient/4.1.4 (Java/1.8.0_192)
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036603 ] - [ DEBUG ] http-outgoing-6 192.168.3.7:55542<->120.52.72.82:8090[ACTIVE][rw:]: Event set [w]
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036603 ] - [ DEBUG ] http-outgoing-6 [ACTIVE] Output ready
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036603 ] - [ DEBUG ] [exchange: 7] produce content
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036603 ] - [ DEBUG ] [exchange: 7] Request completed
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036604 ] - [ DEBUG ] http-outgoing-6 [ACTIVE] [content length: 462; pos: 462; completed: true]
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036604 ] - [ DEBUG ] http-outgoing-6 192.168.3.7:55542<->120.52.72.82:8090[ACTIVE][rw:w]: 731 bytes written
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036604 ] - [ DEBUG ] http-outgoing-6 >> "POST /ivsp/services/AACAPIV1/applyTecentGamesQoS HTTP/1.1[\r][\n]"
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036604 ] - [ DEBUG ] http-outgoing-6 >> "Content-Type: application/json;charset=utf-8[\r][\n]"
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036604 ] - [ DEBUG ] http-outgoing-6 >> "Accept: application/json[\r][\n]"
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036604 ] - [ DEBUG ] http-outgoing-6 >> "Content-Length: 462[\r][\n]"
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036604 ] - [ DEBUG ] http-outgoing-6 >> "Host: 4gqos.h2comm.com.cn:8090[\r][\n]"
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036604 ] - [ DEBUG ] http-outgoing-6 >> "Connection: Keep-Alive[\r][\n]"
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036604 ] - [ DEBUG ] http-outgoing-6 >> "User-Agent: Apache-HttpAsyncClient/4.1.4 (Java/1.8.0_192)[\r][\n]"
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036604 ] - [ DEBUG ] http-outgoing-6 >> "[\r][\n]"
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036604 ] - [ DEBUG ] http-outgoing-6 >> "{"Partner_ID":"moonbay","security_token":"","ResourceFeatureProperties":[{"FlowProperties":[{"DestinationIpAddress":"8.8.8.8","MaximumUpStreamSpeedRate":"204800","MaximumDownStreamSpeedRate":"204800","Protocol":"2","Direction":"2","DestinationPort":"53"}],"Type":"0","Priority":"15"},{"MinimumDownStreamSpeedRate":"51200","MinimumUpStreamSpeedRate":"51200"}],"Duration":"300","UserIdentifier":{"PublicIP":"183.193.178.9","IP":"10.8.0.2"},"ServiceId":"Games100K"}"
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036605 ] - [ DEBUG ] http-outgoing-6 [ACTIVE] Request ready
+2020-01-12 09:29:57 [ I/O dispatcher 25:65036605 ] - [ DEBUG ] http-outgoing-6 192.168.3.7:55542<->120.52.72.82:8090[ACTIVE][r:w]: Event cleared [w]
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046673 ] - [ DEBUG ] http-outgoing-6 192.168.3.7:55542<->120.52.72.82:8090[ACTIVE][r:r]: 405 bytes read
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046673 ] - [ DEBUG ] http-outgoing-6 << "HTTP/1.1 504 Gateway Time-out[\r][\n]"
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046673 ] - [ DEBUG ] http-outgoing-6 << "Server: openresty/1.13.6.2[\r][\n]"
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046673 ] - [ DEBUG ] http-outgoing-6 << "Date: Sun, 12 Jan 2020 01:30:07 GMT[\r][\n]"
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046673 ] - [ DEBUG ] http-outgoing-6 << "Content-Type: text/html; charset=utf-8[\r][\n]"
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046673 ] - [ DEBUG ] http-outgoing-6 << "Content-Length: 189[\r][\n]"
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046673 ] - [ DEBUG ] http-outgoing-6 << "Connection: keep-alive[\r][\n]"
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046673 ] - [ DEBUG ] http-outgoing-6 << "Kss-Upstream: 120.52.72.22:8080[\r][\n]"
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046673 ] - [ DEBUG ] http-outgoing-6 << "[\r][\n]"
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046673 ] - [ DEBUG ] http-outgoing-6 << "<html>[\r][\n]"
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046673 ] - [ DEBUG ] http-outgoing-6 << "<head><title>504 Gateway Time-out</title></head>[\r][\n]"
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046673 ] - [ DEBUG ] http-outgoing-6 << "<body bgcolor="white">[\r][\n]"
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046673 ] - [ DEBUG ] http-outgoing-6 << "<center><h1>504 Gateway Time-out</h1></center>[\r][\n]"
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046673 ] - [ DEBUG ] http-outgoing-6 << "<hr><center>openresty/1.13.6.2</center>[\r][\n]"
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046673 ] - [ DEBUG ] http-outgoing-6 << "</body>[\r][\n]"
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046673 ] - [ DEBUG ] http-outgoing-6 << "</html>[\r][\n]"
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046673 ] - [ DEBUG ] http-outgoing-6 << HTTP/1.1 504 Gateway Time-out
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046673 ] - [ DEBUG ] http-outgoing-6 << Server: openresty/1.13.6.2
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046673 ] - [ DEBUG ] http-outgoing-6 << Date: Sun, 12 Jan 2020 01:30:07 GMT
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046673 ] - [ DEBUG ] http-outgoing-6 << Content-Type: text/html; charset=utf-8
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046673 ] - [ DEBUG ] http-outgoing-6 << Content-Length: 189
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046673 ] - [ DEBUG ] http-outgoing-6 << Connection: keep-alive
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046673 ] - [ DEBUG ] http-outgoing-6 << Kss-Upstream: 120.52.72.22:8080
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046673 ] - [ DEBUG ] http-outgoing-6 [ACTIVE(189)] Response received
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046673 ] - [ DEBUG ] [exchange: 7] Response received HTTP/1.1 504 Gateway Time-out
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046674 ] - [ DEBUG ] http-outgoing-6 [ACTIVE(189)] Input ready
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046674 ] - [ DEBUG ] [exchange: 7] Consume content
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046674 ] - [ DEBUG ] [exchange: 7] Connection can be kept alive indefinitely
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046674 ] - [ DEBUG ] [exchange: 7] Response processed
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046674 ] - [ DEBUG ] [exchange: 7] releasing connection
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046674 ] - [ DEBUG ] http-outgoing-6 192.168.3.7:55542<->120.52.72.82:8090[ACTIVE][r:r]: Remove attribute http.nio.exchange-handler
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046674 ] - [ DEBUG ] Releasing connection: [id: http-outgoing-6][route: {}->http://4gqos.h2comm.com.cn:8090][total kept alive: 0; route allocated: 1 of 100; total allocated: 1 of 100]
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046674 ] - [ DEBUG ] Connection [id: http-outgoing-6][route: {}->http://4gqos.h2comm.com.cn:8090] can be kept alive indefinitely
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046674 ] - [ DEBUG ] http-outgoing-6 192.168.3.7:55542<->120.52.72.82:8090[ACTIVE][r:r]: Set timeout 0
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046675 ] - [ DEBUG ] Connection released: [id: http-outgoing-6][route: {}->http://4gqos.h2comm.com.cn:8090][total kept alive: 1; route allocated: 1 of 100; total allocated: 1 of 100]
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046675 ] - [ INFO ] netinfo speed response<html>
+<head><title>504 Gateway Time-out</title></head>
+<body bgcolor="white">
+<center><h1>504 Gateway Time-out</h1></center>
+<hr><center>openresty/1.13.6.2</center>
+</body>
+</html>
+
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046675 ] - [ INFO ] netinfo speed response is not jsonobject
+2020-01-12 09:30:07 [ I/O dispatcher 25:65046829 ] - [ DEBUG ] http-outgoing-6 [ACTIVE] [content length: 189; pos: 189; completed: true]
+2020-01-12 09:32:07 [ I/O dispatcher 25:65166656 ] - [ DEBUG ] http-outgoing-6 192.168.3.7:55542<->120.52.72.82:8090[ACTIVE][r:r]: -1 bytes read
+2020-01-12 09:32:07 [ I/O dispatcher 25:65166656 ] - [ DEBUG ] http-outgoing-6 [ACTIVE] End of input
+2020-01-12 09:32:07 [ I/O dispatcher 25:65166656 ] - [ DEBUG ] http-outgoing-6 192.168.3.7:55542<->120.52.72.82:8090[ACTIVE][r:r]: Set timeout 1000
+2020-01-12 09:32:07 [ I/O dispatcher 25:65166656 ] - [ DEBUG ] http-outgoing-6 192.168.3.7:55542<->120.52.72.82:8090[ACTIVE][r:r]: Close
+2020-01-12 09:32:07 [ I/O dispatcher 25:65166657 ] - [ DEBUG ] http-outgoing-6 [CLOSED]: Disconnected
+2020-01-12 09:33:07 [ http-bio-8080-exec-1:65226142 ] - [ INFO ] response is {"params":{"RemoteAddress":"8.8.8.8","LocalAddress":"10.8.0.2","PackageName":"com.ximalaya.ting.android","LocalPort":"-16132","RemotePort":"53","Protocol":"2","Result":"success","AppName":"喜马拉雅"}} 0
+2020-01-12 09:33:07 [ http-bio-8080-exec-1:65226162 ] - [ INFO ] received speed item 8.8.8.8 -16132 1
+2020-01-12 09:33:07 [ http-bio-8080-exec-1:65226377 ] - [ INFO ] netinfo has found in delete 8.8.8.8 -16132 1
+2020-01-12 09:38:14 [ http-bio-8080-exec-6:65533778 ] - [ INFO ] response is {"params":{"RemoteAddress":"8.8.8.8","LocalAddress":"10.8.0.2","PackageName":"com.ximalaya.ting.android","LocalPort":"-22913","RemotePort":"53","Protocol":"2","Result":"success","AppName":"喜马拉雅"}} 1
+2020-01-12 09:38:14 [ http-bio-8080-exec-6:65533783 ] - [ INFO ] received speed item 8.8.8.8 -22913 1
+2020-01-12 09:38:14 [ http-bio-8080-exec-6:65533877 ] - [ INFO ] RequestDAO is 8.8.8.8 -22913 1
+2020-01-12 09:38:14 [ http-bio-8080-exec-6:65533878 ] - [ INFO ] netinfo has added into the queue 8.8.8.8 -22913 1
+2020-01-12 09:38:14 [ http-bio-8080-exec-6:65533893 ] - [ DEBUG ] [exchange: 8] start execution
+2020-01-12 09:38:14 [ http-bio-8080-exec-6:65533893 ] - [ DEBUG ] CookieSpec selected: default
+2020-01-12 09:38:14 [ http-bio-8080-exec-6:65533893 ] - [ DEBUG ] Auth cache not set in the context
+2020-01-12 09:38:14 [ http-bio-8080-exec-6:65533893 ] - [ DEBUG ] [exchange: 8] Request connection for {}->http://4gqos.h2comm.com.cn:8090
+2020-01-12 09:38:14 [ http-bio-8080-exec-6:65533894 ] - [ DEBUG ] Connection request: [route: {}->http://4gqos.h2comm.com.cn:8090][total kept alive: 0; route allocated: 0 of 100; total allocated: 0 of 100]
+2020-01-12 09:38:14 [ http-bio-8080-exec-6:65533907 ] - [ INFO ] AsynPost has sent {"Partner_ID":"moonbay","security_token":"","ResourceFeatureProperties":[{"FlowProperties":[{"DestinationIpAddress":"8.8.8.8","MaximumUpStreamSpeedRate":"204800","MaximumDownStreamSpeedRate":"204800","Protocol":"2","Direction":"2","DestinationPort":"53"}],"Type":"0","Priority":"15"},{"MinimumDownStreamSpeedRate":"51200","MinimumUpStreamSpeedRate":"51200"}],"Duration":"300","UserIdentifier":{"PublicIP":"183.193.178.9","IP":"10.8.0.2"},"ServiceId":"Games100K"}
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533964 ] - [ DEBUG ] Connection leased: [id: http-outgoing-7][route: {}->http://4gqos.h2comm.com.cn:8090][total kept alive: 0; route allocated: 1 of 100; total allocated: 0 of 100]
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533964 ] - [ DEBUG ] [exchange: 8] Connection allocated: CPoolProxy{http-outgoing-7 [ACTIVE]}
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533964 ] - [ DEBUG ] http-outgoing-7 192.168.3.7:55748<->120.52.72.82:8090[ACTIVE][r:]: Set attribute http.nio.exchange-handler
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533964 ] - [ DEBUG ] http-outgoing-7 192.168.3.7:55748<->120.52.72.82:8090[ACTIVE][rw:]: Event set [w]
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533964 ] - [ DEBUG ] http-outgoing-7 192.168.3.7:55748<->120.52.72.82:8090[ACTIVE][rw:]: Set timeout 0
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533964 ] - [ DEBUG ] http-outgoing-7 [ACTIVE]: Connected
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533964 ] - [ DEBUG ] http-outgoing-7 192.168.3.7:55748<->120.52.72.82:8090[ACTIVE][rw:]: Set attribute http.nio.http-exchange-state
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533964 ] - [ DEBUG ] [exchange: 8] Start connection routing
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533964 ] - [ DEBUG ] [exchange: 8] route completed
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533964 ] - [ DEBUG ] [exchange: 8] Connection route established
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533964 ] - [ DEBUG ] [exchange: 8] Attempt 1 to execute request
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533964 ] - [ DEBUG ] [exchange: 8] Target auth state: UNCHALLENGED
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533964 ] - [ DEBUG ] [exchange: 8] Proxy auth state: UNCHALLENGED
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533964 ] - [ DEBUG ] http-outgoing-7 192.168.3.7:55748<->120.52.72.82:8090[ACTIVE][rw:]: Set timeout 50000
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533964 ] - [ DEBUG ] http-outgoing-7 >> POST /ivsp/services/AACAPIV1/applyTecentGamesQoS HTTP/1.1
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533964 ] - [ DEBUG ] http-outgoing-7 >> Content-Type: application/json;charset=utf-8
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533964 ] - [ DEBUG ] http-outgoing-7 >> Accept: application/json
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533964 ] - [ DEBUG ] http-outgoing-7 >> Content-Length: 462
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533964 ] - [ DEBUG ] http-outgoing-7 >> Host: 4gqos.h2comm.com.cn:8090
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533964 ] - [ DEBUG ] http-outgoing-7 >> Connection: Keep-Alive
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533964 ] - [ DEBUG ] http-outgoing-7 >> User-Agent: Apache-HttpAsyncClient/4.1.4 (Java/1.8.0_192)
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533965 ] - [ DEBUG ] http-outgoing-7 192.168.3.7:55748<->120.52.72.82:8090[ACTIVE][rw:]: Event set [w]
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533965 ] - [ DEBUG ] http-outgoing-7 [ACTIVE] Output ready
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533965 ] - [ DEBUG ] [exchange: 8] produce content
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533965 ] - [ DEBUG ] [exchange: 8] Request completed
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533965 ] - [ DEBUG ] http-outgoing-7 [ACTIVE] [content length: 462; pos: 462; completed: true]
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533965 ] - [ DEBUG ] http-outgoing-7 192.168.3.7:55748<->120.52.72.82:8090[ACTIVE][rw:w]: 731 bytes written
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533965 ] - [ DEBUG ] http-outgoing-7 >> "POST /ivsp/services/AACAPIV1/applyTecentGamesQoS HTTP/1.1[\r][\n]"
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533965 ] - [ DEBUG ] http-outgoing-7 >> "Content-Type: application/json;charset=utf-8[\r][\n]"
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533965 ] - [ DEBUG ] http-outgoing-7 >> "Accept: application/json[\r][\n]"
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533965 ] - [ DEBUG ] http-outgoing-7 >> "Content-Length: 462[\r][\n]"
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533965 ] - [ DEBUG ] http-outgoing-7 >> "Host: 4gqos.h2comm.com.cn:8090[\r][\n]"
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533965 ] - [ DEBUG ] http-outgoing-7 >> "Connection: Keep-Alive[\r][\n]"
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533965 ] - [ DEBUG ] http-outgoing-7 >> "User-Agent: Apache-HttpAsyncClient/4.1.4 (Java/1.8.0_192)[\r][\n]"
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533965 ] - [ DEBUG ] http-outgoing-7 >> "[\r][\n]"
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533965 ] - [ DEBUG ] http-outgoing-7 >> "{"Partner_ID":"moonbay","security_token":"","ResourceFeatureProperties":[{"FlowProperties":[{"DestinationIpAddress":"8.8.8.8","MaximumUpStreamSpeedRate":"204800","MaximumDownStreamSpeedRate":"204800","Protocol":"2","Direction":"2","DestinationPort":"53"}],"Type":"0","Priority":"15"},{"MinimumDownStreamSpeedRate":"51200","MinimumUpStreamSpeedRate":"51200"}],"Duration":"300","UserIdentifier":{"PublicIP":"183.193.178.9","IP":"10.8.0.2"},"ServiceId":"Games100K"}"
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533965 ] - [ DEBUG ] http-outgoing-7 [ACTIVE] Request ready
+2020-01-12 09:38:14 [ I/O dispatcher 29:65533965 ] - [ DEBUG ] http-outgoing-7 192.168.3.7:55748<->120.52.72.82:8090[ACTIVE][r:w]: Event cleared [w]
+2020-01-12 09:38:24 [ I/O dispatcher 29:65544032 ] - [ DEBUG ] http-outgoing-7 192.168.3.7:55748<->120.52.72.82:8090[ACTIVE][r:r]: 405 bytes read
+2020-01-12 09:38:24 [ I/O dispatcher 29:65544032 ] - [ DEBUG ] http-outgoing-7 << "HTTP/1.1 504 Gateway Time-out[\r][\n]"
+2020-01-12 09:38:24 [ I/O dispatcher 29:65544032 ] - [ DEBUG ] http-outgoing-7 << "Server: openresty/1.13.6.2[\r][\n]"
+2020-01-12 09:38:24 [ I/O dispatcher 29:65544032 ] - [ DEBUG ] http-outgoing-7 << "Date: Sun, 12 Jan 2020 01:38:24 GMT[\r][\n]"
+2020-01-12 09:38:24 [ I/O dispatcher 29:65544032 ] - [ DEBUG ] http-outgoing-7 << "Content-Type: text/html; charset=utf-8[\r][\n]"
+2020-01-12 09:38:24 [ I/O dispatcher 29:65544032 ] - [ DEBUG ] http-outgoing-7 << "Content-Length: 189[\r][\n]"
+2020-01-12 09:38:24 [ I/O dispatcher 29:65544032 ] - [ DEBUG ] http-outgoing-7 << "Connection: keep-alive[\r][\n]"
+2020-01-12 09:38:24 [ I/O dispatcher 29:65544032 ] - [ DEBUG ] http-outgoing-7 << "Kss-Upstream: 120.52.72.22:8080[\r][\n]"
+2020-01-12 09:38:24 [ I/O dispatcher 29:65544032 ] - [ DEBUG ] http-outgoing-7 << "[\r][\n]"
+2020-01-12 09:38:24 [ I/O dispatcher 29:65544032 ] - [ DEBUG ] http-outgoing-7 << "<html>[\r][\n]"
+2020-01-12 09:38:24 [ I/O dispatcher 29:65544032 ] - [ DEBUG ] http-outgoing-7 << "<head><title>504 Gateway Time-out</title></head>[\r][\n]"
+2020-01-12 09:38:24 [ I/O dispatcher 29:65544032 ] - [ DEBUG ] http-outgoing-7 << "<body bgcolor="white">[\r][\n]"
+2020-01-12 09:38:24 [ I/O dispatcher 29:65544032 ] - [ DEBUG ] http-outgoing-7 << "<center><h1>504 Gateway Time-out</h1></center>[\r][\n]"
+2020-01-12 09:38:24 [ I/O dispatcher 29:65544032 ] - [ DEBUG ] http-outgoing-7 << "<hr><center>openresty/1.13.6.2</center>[\r][\n]"
+2020-01-12 09:38:24 [ I/O dispatcher 29:65544032 ] - [ DEBUG ] http-outgoing-7 << "</body>[\r][\n]"
+2020-01-12 09:38:24 [ I/O dispatcher 29:65544032 ] - [ DEBUG ] http-outgoing-7 << "</html>[\r][\n]"
+2020-01-12 09:38:24 [ I/O dispatcher 29:65544033 ] - [ DEBUG ] http-outgoing-7 << HTTP/1.1 504 Gateway Time-out
+2020-01-12 09:38:24 [ I/O dispatcher 29:65544033 ] - [ DEBUG ] http-outgoing-7 << Server: openresty/1.13.6.2
+2020-01-12 09:38:24 [ I/O dispatcher 29:65544033 ] - [ DEBUG ] http-outgoing-7 << Date: Sun, 12 Jan 2020 01:38:24 GMT
+2020-01-12 09:38:24 [ I/O dispatcher 29:65544034 ] - [ DEBUG ] http-outgoing-7 << Content-Type: text/html; charset=utf-8
+2020-01-12 09:38:24 [ I/O dispatcher 29:65544034 ] - [ DEBUG ] http-outgoing-7 << Content-Length: 189
+2020-01-12 09:38:24 [ I/O dispatcher 29:65544034 ] - [ DEBUG ] http-outgoing-7 << Connection: keep-alive
+2020-01-12 09:38:24 [ I/O dispatcher 29:65544034 ] - [ DEBUG ] http-outgoing-7 << Kss-Upstream: 120.52.72.22:8080
+2020-01-12 09:38:24 [ I/O dispatcher 29:65544034 ] - [ DEBUG ] http-outgoing-7 [ACTIVE(189)] Response received
+2020-01-12 09:38:24 [ I/O dispatcher 29:65544034 ] - [ DEBUG ] [exchange: 8] Response received HTTP/1.1 504 Gateway Time-out
+2020-01-12 09:38:24 [ I/O dispatcher 29:65544034 ] - [ DEBUG ] http-outgoing-7 [ACTIVE(189)] Input ready
+2020-01-12 09:38:24 [ I/O dispatcher 29:65544034 ] - [ DEBUG ] [exchange: 8] Consume content
+2020-01-12 09:38:24 [ I/O dispatcher 29:65544035 ] - [ DEBUG ] [exchange: 8] Connection can be kept alive indefinitely
+2020-01-12 09:38:24 [ I/O dispatcher 29:65544036 ] - [ DEBUG ] [exchange: 8] Response processed
+2020-01-12 09:38:24 [ I/O dispatcher 29:65544036 ] - [ DEBUG ] [exchange: 8] releasing connection
+2020-01-12 09:38:24 [ I/O dispatcher 29:65544036 ] - [ DEBUG ] http-outgoing-7 192.168.3.7:55748<->120.52.72.82:8090[ACTIVE][r:r]: Remove attribute http.nio.exchange-handler
+2020-01-12 09:38:24 [ I/O dispatcher 29:65544036 ] - [ DEBUG ] Releasing connection: [id: http-outgoing-7][route: {}->http://4gqos.h2comm.com.cn:8090][total kept alive: 0; route allocated: 1 of 100; total allocated: 1 of 100]
+2020-01-12 09:38:24 [ I/O dispatcher 29:65544036 ] - [ DEBUG ] Connection [id: http-outgoing-7][route: {}->http://4gqos.h2comm.com.cn:8090] can be kept alive indefinitely
+2020-01-12 09:38:24 [ I/O dispatcher 29:65544036 ] - [ DEBUG ] http-outgoing-7 192.168.3.7:55748<->120.52.72.82:8090[ACTIVE][r:r]: Set timeout 0
+2020-01-12 09:38:24 [ I/O dispatcher 29:65544036 ] - [ DEBUG ] Connection released: [id: http-outgoing-7][route: {}->http://4gqos.h2comm.com.cn:8090][total kept alive: 1; route allocated: 1 of 100; total allocated: 1 of 100]
+2020-01-12 09:38:24 [ I/O dispatcher 29:65544037 ] - [ INFO ] netinfo speed response<html>
+<head><title>504 Gateway Time-out</title></head>
+<body bgcolor="white">
+<center><h1>504 Gateway Time-out</h1></center>
+<hr><center>openresty/1.13.6.2</center>
+</body>
+</html>
+
+2020-01-12 09:38:24 [ I/O dispatcher 29:65544037 ] - [ INFO ] netinfo speed response is not jsonobject
+2020-01-12 09:38:25 [ I/O dispatcher 29:65544244 ] - [ DEBUG ] http-outgoing-7 [ACTIVE] [content length: 189; pos: 189; completed: true]
+2020-01-12 09:40:24 [ I/O dispatcher 29:65664001 ] - [ DEBUG ] http-outgoing-7 192.168.3.7:55748<->120.52.72.82:8090[ACTIVE][r:r]: -1 bytes read
+2020-01-12 09:40:24 [ I/O dispatcher 29:65664001 ] - [ DEBUG ] http-outgoing-7 [ACTIVE] End of input
+2020-01-12 09:40:24 [ I/O dispatcher 29:65664001 ] - [ DEBUG ] http-outgoing-7 192.168.3.7:55748<->120.52.72.82:8090[ACTIVE][r:r]: Set timeout 1000
+2020-01-12 09:40:24 [ I/O dispatcher 29:65664001 ] - [ DEBUG ] http-outgoing-7 192.168.3.7:55748<->120.52.72.82:8090[ACTIVE][r:r]: Close
+2020-01-12 09:40:24 [ I/O dispatcher 29:65664001 ] - [ DEBUG ] http-outgoing-7 [CLOSED]: Disconnected
+2020-01-12 10:42:07 [ Finalizer:69366297 ] - [ DEBUG ] Connection manager is shutting down
+2020-01-12 10:42:07 [ Finalizer:69366297 ] - [ DEBUG ] Connection manager shut down
+2020-01-12 10:42:07 [ Finalizer:69366297 ] - [ DEBUG ] Connection manager is shutting down
+2020-01-12 10:42:07 [ Finalizer:69366297 ] - [ DEBUG ] Connection manager shut down
+2020-01-12 10:42:07 [ Finalizer:69366297 ] - [ DEBUG ] Connection manager is shutting down
+2020-01-12 10:42:07 [ Finalizer:69366297 ] - [ DEBUG ] Connection manager shut down
+2020-01-12 10:42:07 [ Finalizer:69366297 ] - [ DEBUG ] Connection manager is shutting down
+2020-01-12 10:42:07 [ Finalizer:69366297 ] - [ DEBUG ] Connection manager shut down
+2020-01-12 10:42:07 [ Finalizer:69366297 ] - [ DEBUG ] Connection manager is shutting down
+2020-01-12 10:42:07 [ Finalizer:69366297 ] - [ DEBUG ] Connection manager shut down
+2020-01-12 10:42:07 [ Finalizer:69366297 ] - [ DEBUG ] Connection manager is shutting down
+2020-01-12 10:42:07 [ Finalizer:69366297 ] - [ DEBUG ] Connection manager shut down
+2020-01-12 11:20:00 [ Timer-0:0 ] - [ INFO ] Task started
+2020-01-12 11:20:00 [ Timer-0:15 ] - [ INFO ] Task closed
+2020-01-12 11:25:00 [ Timer-0:300001 ] - [ INFO ] Task started
+2020-01-12 11:25:00 [ Timer-0:300002 ] - [ INFO ] Task closed
+2020-01-12 11:30:00 [ Timer-0:600001 ] - [ INFO ] Task started
+2020-01-12 11:30:00 [ Timer-0:600002 ] - [ INFO ] Task closed
+2020-01-12 11:35:00 [ Timer-0:900000 ] - [ INFO ] Task started
+2020-01-12 11:35:00 [ Timer-0:900003 ] - [ INFO ] Task closed
+2020-01-12 11:40:00 [ Timer-0:1200000 ] - [ INFO ] Task started
+2020-01-12 11:40:00 [ Timer-0:1200001 ] - [ INFO ] Task closed
+2020-01-12 11:45:00 [ Timer-0:1500001 ] - [ INFO ] Task started
+2020-01-12 11:45:00 [ Timer-0:1500001 ] - [ INFO ] Task closed
+2020-01-12 11:50:00 [ Timer-0:1800001 ] - [ INFO ] Task started
+2020-01-12 11:50:00 [ Timer-0:1800002 ] - [ INFO ] Task closed
+2020-01-12 11:55:00 [ Timer-0:2100004 ] - [ INFO ] Task started
+2020-01-12 11:55:00 [ Timer-0:2100004 ] - [ INFO ] Task closed
+2020-01-12 12:00:00 [ Timer-0:2400007 ] - [ INFO ] Task started
+2020-01-12 12:00:00 [ Timer-0:2400007 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609602 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609602 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609602 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609602 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609603 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609603 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609603 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609604 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609604 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609605 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609606 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609607 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609607 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609608 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609608 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609608 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609609 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609610 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609610 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609610 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609610 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609611 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609611 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609612 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609612 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609613 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609613 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609615 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609615 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609615 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609616 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609616 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609617 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609618 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609618 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609619 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609619 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609620 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609620 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609621 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609621 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609621 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609621 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609621 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609622 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609622 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609622 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609622 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609622 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609623 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609623 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609623 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609623 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609624 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609624 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609625 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609626 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609626 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609626 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609631 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609631 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609632 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609632 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609634 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609634 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609635 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609635 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609635 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609636 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609636 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609637 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609637 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609638 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609638 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609638 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609640 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609641 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609642 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609645 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609645 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609646 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609647 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609647 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609647 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609648 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609649 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609650 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609650 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609650 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609651 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609651 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609651 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609651 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609651 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609651 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609652 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609652 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609652 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609652 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609652 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609653 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609654 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609656 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609657 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609657 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609658 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609659 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609659 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609659 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609660 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609660 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609660 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609660 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609661 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609661 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609661 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609661 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609662 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609662 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609662 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609662 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609663 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609663 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609663 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609663 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609663 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609663 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609664 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609664 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609665 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609665 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609666 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609666 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609666 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609666 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609667 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609667 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609667 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609682 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609682 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609683 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609683 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609683 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609684 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609684 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609684 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609684 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609685 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609685 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609686 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609686 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609686 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609686 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609687 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609687 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609687 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609687 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609687 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609688 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609688 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609688 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609688 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609688 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609689 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609689 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609690 ] - [ INFO ] Task closed
+2020-01-12 19:00:10 [ Timer-0:27609690 ] - [ INFO ] Task started
+2020-01-12 19:00:10 [ Timer-0:27609690 ] - [ INFO ] Task closed
+2020-01-12 19:05:00 [ Timer-0:27900000 ] - [ INFO ] Task started
+2020-01-12 19:05:00 [ Timer-0:27900002 ] - [ INFO ] Task closed
+2020-01-12 19:10:00 [ Timer-0:28200001 ] - [ INFO ] Task started
+2020-01-12 19:10:00 [ Timer-0:28200002 ] - [ INFO ] Task closed
+2020-01-12 19:15:00 [ Timer-0:28500001 ] - [ INFO ] Task started
+2020-01-12 19:15:00 [ Timer-0:28500001 ] - [ INFO ] Task closed
+2020-01-12 19:20:00 [ Timer-0:28800000 ] - [ INFO ] Task started
+2020-01-12 19:20:00 [ Timer-0:28800001 ] - [ INFO ] Task closed
+2020-01-12 19:25:00 [ Timer-0:29100001 ] - [ INFO ] Task started
+2020-01-12 19:25:00 [ Timer-0:29100003 ] - [ INFO ] Task closed
+2020-01-12 19:30:00 [ Timer-0:29400000 ] - [ INFO ] Task started
+2020-01-12 19:30:00 [ Timer-0:29400001 ] - [ INFO ] Task closed
+2020-01-12 19:35:00 [ Timer-0:29700000 ] - [ INFO ] Task started
+2020-01-12 19:35:00 [ Timer-0:29700001 ] - [ INFO ] Task closed
+2020-01-12 19:40:00 [ Timer-0:30000000 ] - [ INFO ] Task started
+2020-01-12 19:40:00 [ Timer-0:30000001 ] - [ INFO ] Task closed
+2020-01-12 19:45:00 [ Timer-0:30300001 ] - [ INFO ] Task started
+2020-01-12 19:45:00 [ Timer-0:30300001 ] - [ INFO ] Task closed
+2020-01-12 19:50:00 [ Timer-0:30600000 ] - [ INFO ] Task started
+2020-01-12 19:50:00 [ Timer-0:30600002 ] - [ INFO ] Task closed
+2020-01-12 19:55:00 [ Timer-0:30900006 ] - [ INFO ] Task started
+2020-01-12 19:55:00 [ Timer-0:30900006 ] - [ INFO ] Task closed
+2020-01-12 20:00:00 [ Timer-0:31200013 ] - [ INFO ] Task started
+2020-01-12 20:00:00 [ Timer-0:31200013 ] - [ INFO ] Task closed
+2020-01-12 20:05:00 [ Timer-0:31500007 ] - [ INFO ] Task started
+2020-01-12 20:05:00 [ Timer-0:31500007 ] - [ INFO ] Task closed
+2020-01-12 20:10:00 [ Timer-0:31800009 ] - [ INFO ] Task started
+2020-01-12 20:10:00 [ Timer-0:31800009 ] - [ INFO ] Task closed
+2020-01-12 20:15:00 [ Timer-0:32100001 ] - [ INFO ] Task started
+2020-01-12 20:15:00 [ Timer-0:32100002 ] - [ INFO ] Task closed
+2020-01-12 20:20:00 [ Timer-0:32400003 ] - [ INFO ] Task started
+2020-01-12 20:20:00 [ Timer-0:32400003 ] - [ INFO ] Task closed
+2020-01-12 20:25:00 [ Timer-0:32700014 ] - [ INFO ] Task started
+2020-01-12 20:25:00 [ Timer-0:32700014 ] - [ INFO ] Task closed
+2020-01-12 20:30:00 [ Timer-0:33000004 ] - [ INFO ] Task started
+2020-01-12 20:30:00 [ Timer-0:33000004 ] - [ INFO ] Task closed
+2020-01-12 20:35:00 [ Timer-0:33300001 ] - [ INFO ] Task started
+2020-01-12 20:35:00 [ Timer-0:33300003 ] - [ INFO ] Task closed
+2020-01-12 20:40:00 [ Timer-0:33600001 ] - [ INFO ] Task started
+2020-01-12 20:40:00 [ Timer-0:33600001 ] - [ INFO ] Task closed
+2020-01-12 20:45:00 [ Timer-0:33900000 ] - [ INFO ] Task started
+2020-01-12 20:45:00 [ Timer-0:33900000 ] - [ INFO ] Task closed
+2020-01-12 20:50:00 [ Timer-0:34200001 ] - [ INFO ] Task started
+2020-01-12 20:50:00 [ Timer-0:34200001 ] - [ INFO ] Task closed
+2020-01-12 20:55:00 [ Timer-0:34500000 ] - [ INFO ] Task started
+2020-01-12 20:55:00 [ Timer-0:34500002 ] - [ INFO ] Task closed
+2020-01-12 21:00:00 [ Timer-0:34800000 ] - [ INFO ] Task started
+2020-01-12 21:00:00 [ Timer-0:34800001 ] - [ INFO ] Task closed
+2020-01-12 21:05:00 [ Timer-0:35100000 ] - [ INFO ] Task started
+2020-01-12 21:05:00 [ Timer-0:35100000 ] - [ INFO ] Task closed
+2020-01-12 21:10:00 [ Timer-0:35400001 ] - [ INFO ] Task started
+2020-01-12 21:10:00 [ Timer-0:35400002 ] - [ INFO ] Task closed
+2020-01-12 21:15:00 [ Timer-0:35700000 ] - [ INFO ] Task started
+2020-01-12 21:15:00 [ Timer-0:35700000 ] - [ INFO ] Task closed
+2020-01-12 21:26:29 [ Timer-0:36388202 ] - [ INFO ] Task started
+2020-01-12 21:26:29 [ Timer-0:36388202 ] - [ INFO ] Task closed
+2020-01-12 21:26:29 [ Timer-0:36388202 ] - [ INFO ] Task started
+2020-01-12 21:26:29 [ Timer-0:36388202 ] - [ INFO ] Task closed

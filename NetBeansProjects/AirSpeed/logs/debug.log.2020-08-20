@@ -1,0 +1,14 @@
+2020-08-20 22:40:53 [ Timer-0:0 ] - [ INFO ] Task started
+2020-08-20 22:40:53 [ Timer-0:22 ] - [ INFO ] Task closed
+2020-08-20 22:45:53 [ Timer-0:300001 ] - [ INFO ] Task started
+2020-08-20 22:45:53 [ Timer-0:300002 ] - [ INFO ] Task closed
+2020-08-20 22:50:53 [ Timer-0:599999 ] - [ INFO ] Task started
+2020-08-20 22:50:53 [ Timer-0:599999 ] - [ INFO ] Task closed
+2020-08-20 22:55:53 [ Timer-0:900000 ] - [ INFO ] Task started
+2020-08-20 22:55:53 [ Timer-0:900000 ] - [ INFO ] Task closed
+2020-08-20 23:00:53 [ Timer-0:1200000 ] - [ INFO ] Task started
+2020-08-20 23:00:53 [ Timer-0:1200000 ] - [ INFO ] Task closed
+2020-08-20 23:05:53 [ Timer-0:1499999 ] - [ INFO ] Task started
+2020-08-20 23:05:53 [ Timer-0:1500000 ] - [ INFO ] Task closed
+2020-08-20 23:10:53 [ Timer-0:1800000 ] - [ INFO ] Task started
+2020-08-20 23:10:53 [ Timer-0:1800000 ] - [ INFO ] Task closed

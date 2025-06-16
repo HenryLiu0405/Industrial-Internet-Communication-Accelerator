@@ -1,0 +1,611 @@
+2020-01-11 15:26:00 [ Timer-0:0 ] - [ INFO ] Task started
+2020-01-11 15:26:00 [ Timer-0:16 ] - [ INFO ] Task closed
+2020-01-11 15:31:00 [ Timer-0:300000 ] - [ INFO ] Task started
+2020-01-11 15:31:00 [ Timer-0:300000 ] - [ INFO ] Task closed
+2020-01-11 15:35:55 [ http-bio-8080-exec-1:594825 ] - [ INFO ] response is {"params":{"RemoteAddress":"8.8.8.8","LocalAddress":"10.8.0.2","PackageName":"com.tencent.tmgp.sgame","LocalPort":"-16747","RemotePort":"53","Protocol":"2","Result":"success","AppName":"王者荣耀"}} 1
+2020-01-11 15:35:55 [ http-bio-8080-exec-1:595001 ] - [ INFO ] received speed item 8.8.8.8 -16747 1
+2020-01-11 15:35:56 [ http-bio-8080-exec-1:595208 ] - [ INFO ] RequestDAO is 8.8.8.8 -16747 1
+2020-01-11 15:35:56 [ http-bio-8080-exec-1:595211 ] - [ INFO ] netinfo has added 8.8.8.8 -16747 1
+2020-01-11 15:35:57 [ http-bio-8080-exec-1:596426 ] - [ DEBUG ] [exchange: 1] start execution
+2020-01-11 15:35:57 [ http-bio-8080-exec-1:596434 ] - [ DEBUG ] CookieSpec selected: default
+2020-01-11 15:35:57 [ http-bio-8080-exec-1:596450 ] - [ DEBUG ] Auth cache not set in the context
+2020-01-11 15:35:57 [ http-bio-8080-exec-1:596450 ] - [ DEBUG ] [exchange: 1] Request connection for {}->http://4gqos.h2comm.com.cn:8090
+2020-01-11 15:35:57 [ http-bio-8080-exec-1:596452 ] - [ DEBUG ] Connection request: [route: {}->http://4gqos.h2comm.com.cn:8090][total kept alive: 0; route allocated: 0 of 100; total allocated: 0 of 100]
+2020-01-11 15:35:57 [ http-bio-8080-exec-1:596517 ] - [ INFO ] AsynPost has sent {"Partner_ID":"moonbay","security_token":"","ResourceFeatureProperties":[{"FlowProperties":[{"DestinationIpAddress":"8.8.8.8","MaximumUpStreamSpeedRate":"512000","MaximumDownStreamSpeedRate":"512000","Protocol":"2","Direction":"2","DestinationPort":"53"}],"Type":"3","Priority":"15"},{"MinimumDownStreamSpeedRate":"307200","MinimumUpStreamSpeedRate":"307200"}],"Duration":"300","UserIdentifier":{"PublicIP":"183.193.178.9","IP":"10.8.0.2"},"ServiceId":"Games100K"}
+2020-01-11 15:35:57 [ I/O dispatcher 1:596622 ] - [ DEBUG ] Connection leased: [id: http-outgoing-0][route: {}->http://4gqos.h2comm.com.cn:8090][total kept alive: 0; route allocated: 1 of 100; total allocated: 0 of 100]
+2020-01-11 15:35:57 [ I/O dispatcher 1:596625 ] - [ DEBUG ] [exchange: 1] Connection allocated: CPoolProxy{http-outgoing-0 [ACTIVE]}
+2020-01-11 15:35:57 [ I/O dispatcher 1:596625 ] - [ DEBUG ] http-outgoing-0 192.168.3.7:61648<->120.52.72.82:8090[ACTIVE][r:]: Set attribute http.nio.exchange-handler
+2020-01-11 15:35:57 [ I/O dispatcher 1:596626 ] - [ DEBUG ] http-outgoing-0 192.168.3.7:61648<->120.52.72.82:8090[ACTIVE][rw:]: Event set [w]
+2020-01-11 15:35:57 [ I/O dispatcher 1:596626 ] - [ DEBUG ] http-outgoing-0 192.168.3.7:61648<->120.52.72.82:8090[ACTIVE][rw:]: Set timeout 0
+2020-01-11 15:35:57 [ I/O dispatcher 1:596626 ] - [ DEBUG ] http-outgoing-0 [ACTIVE]: Connected
+2020-01-11 15:35:57 [ I/O dispatcher 1:596627 ] - [ DEBUG ] http-outgoing-0 192.168.3.7:61648<->120.52.72.82:8090[ACTIVE][rw:]: Set attribute http.nio.http-exchange-state
+2020-01-11 15:35:57 [ I/O dispatcher 1:596628 ] - [ DEBUG ] [exchange: 1] Start connection routing
+2020-01-11 15:35:57 [ I/O dispatcher 1:596629 ] - [ DEBUG ] [exchange: 1] route completed
+2020-01-11 15:35:57 [ I/O dispatcher 1:596629 ] - [ DEBUG ] [exchange: 1] Connection route established
+2020-01-11 15:35:57 [ I/O dispatcher 1:596629 ] - [ DEBUG ] [exchange: 1] Attempt 1 to execute request
+2020-01-11 15:35:57 [ I/O dispatcher 1:596629 ] - [ DEBUG ] [exchange: 1] Target auth state: UNCHALLENGED
+2020-01-11 15:35:57 [ I/O dispatcher 1:596630 ] - [ DEBUG ] [exchange: 1] Proxy auth state: UNCHALLENGED
+2020-01-11 15:35:57 [ I/O dispatcher 1:596630 ] - [ DEBUG ] http-outgoing-0 192.168.3.7:61648<->120.52.72.82:8090[ACTIVE][rw:]: Set timeout 50000
+2020-01-11 15:35:57 [ I/O dispatcher 1:596630 ] - [ DEBUG ] http-outgoing-0 >> POST /ivsp/services/AACAPIV1/applyTecentGamesQoS HTTP/1.1
+2020-01-11 15:35:57 [ I/O dispatcher 1:596630 ] - [ DEBUG ] http-outgoing-0 >> Content-Type: application/json;charset=utf-8
+2020-01-11 15:35:57 [ I/O dispatcher 1:596630 ] - [ DEBUG ] http-outgoing-0 >> Accept: application/json
+2020-01-11 15:35:57 [ I/O dispatcher 1:596631 ] - [ DEBUG ] http-outgoing-0 >> Content-Length: 464
+2020-01-11 15:35:57 [ I/O dispatcher 1:596631 ] - [ DEBUG ] http-outgoing-0 >> Host: 4gqos.h2comm.com.cn:8090
+2020-01-11 15:35:57 [ I/O dispatcher 1:596631 ] - [ DEBUG ] http-outgoing-0 >> Connection: Keep-Alive
+2020-01-11 15:35:57 [ I/O dispatcher 1:596631 ] - [ DEBUG ] http-outgoing-0 >> User-Agent: Apache-HttpAsyncClient/4.1.4 (Java/1.8.0_192)
+2020-01-11 15:35:57 [ I/O dispatcher 1:596633 ] - [ DEBUG ] http-outgoing-0 192.168.3.7:61648<->120.52.72.82:8090[ACTIVE][rw:]: Event set [w]
+2020-01-11 15:35:57 [ I/O dispatcher 1:596634 ] - [ DEBUG ] http-outgoing-0 [ACTIVE] Output ready
+2020-01-11 15:35:57 [ I/O dispatcher 1:596634 ] - [ DEBUG ] [exchange: 1] produce content
+2020-01-11 15:35:57 [ I/O dispatcher 1:596635 ] - [ DEBUG ] [exchange: 1] Request completed
+2020-01-11 15:35:57 [ I/O dispatcher 1:596635 ] - [ DEBUG ] http-outgoing-0 [ACTIVE] [content length: 464; pos: 464; completed: true]
+2020-01-11 15:35:57 [ I/O dispatcher 1:596636 ] - [ DEBUG ] http-outgoing-0 192.168.3.7:61648<->120.52.72.82:8090[ACTIVE][rw:w]: 733 bytes written
+2020-01-11 15:35:57 [ I/O dispatcher 1:596636 ] - [ DEBUG ] http-outgoing-0 >> "POST /ivsp/services/AACAPIV1/applyTecentGamesQoS HTTP/1.1[\r][\n]"
+2020-01-11 15:35:57 [ I/O dispatcher 1:596636 ] - [ DEBUG ] http-outgoing-0 >> "Content-Type: application/json;charset=utf-8[\r][\n]"
+2020-01-11 15:35:57 [ I/O dispatcher 1:596636 ] - [ DEBUG ] http-outgoing-0 >> "Accept: application/json[\r][\n]"
+2020-01-11 15:35:57 [ I/O dispatcher 1:596636 ] - [ DEBUG ] http-outgoing-0 >> "Content-Length: 464[\r][\n]"
+2020-01-11 15:35:57 [ I/O dispatcher 1:596636 ] - [ DEBUG ] http-outgoing-0 >> "Host: 4gqos.h2comm.com.cn:8090[\r][\n]"
+2020-01-11 15:35:57 [ I/O dispatcher 1:596636 ] - [ DEBUG ] http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-01-11 15:35:57 [ I/O dispatcher 1:596636 ] - [ DEBUG ] http-outgoing-0 >> "User-Agent: Apache-HttpAsyncClient/4.1.4 (Java/1.8.0_192)[\r][\n]"
+2020-01-11 15:35:57 [ I/O dispatcher 1:596636 ] - [ DEBUG ] http-outgoing-0 >> "[\r][\n]"
+2020-01-11 15:35:57 [ I/O dispatcher 1:596636 ] - [ DEBUG ] http-outgoing-0 >> "{"Partner_ID":"moonbay","security_token":"","ResourceFeatureProperties":[{"FlowProperties":[{"DestinationIpAddress":"8.8.8.8","MaximumUpStreamSpeedRate":"512000","MaximumDownStreamSpeedRate":"512000","Protocol":"2","Direction":"2","DestinationPort":"53"}],"Type":"3","Priority":"15"},{"MinimumDownStreamSpeedRate":"307200","MinimumUpStreamSpeedRate":"307200"}],"Duration":"300","UserIdentifier":{"PublicIP":"183.193.178.9","IP":"10.8.0.2"},"ServiceId":"Games100K"}"
+2020-01-11 15:35:57 [ I/O dispatcher 1:596637 ] - [ DEBUG ] http-outgoing-0 [ACTIVE] Request ready
+2020-01-11 15:35:57 [ I/O dispatcher 1:596637 ] - [ DEBUG ] http-outgoing-0 192.168.3.7:61648<->120.52.72.82:8090[ACTIVE][r:w]: Event cleared [w]
+2020-01-11 15:36:00 [ Timer-0:600000 ] - [ INFO ] Task started
+2020-01-11 15:36:00 [ Timer-0:600001 ] - [ INFO ] Task closed
+2020-01-11 15:36:07 [ I/O dispatcher 1:606703 ] - [ DEBUG ] http-outgoing-0 192.168.3.7:61648<->120.52.72.82:8090[ACTIVE][r:r]: 405 bytes read
+2020-01-11 15:36:07 [ I/O dispatcher 1:606703 ] - [ DEBUG ] http-outgoing-0 << "HTTP/1.1 504 Gateway Time-out[\r][\n]"
+2020-01-11 15:36:07 [ I/O dispatcher 1:606703 ] - [ DEBUG ] http-outgoing-0 << "Server: openresty/1.13.6.2[\r][\n]"
+2020-01-11 15:36:07 [ I/O dispatcher 1:606703 ] - [ DEBUG ] http-outgoing-0 << "Date: Sat, 11 Jan 2020 07:36:04 GMT[\r][\n]"
+2020-01-11 15:36:07 [ I/O dispatcher 1:606704 ] - [ DEBUG ] http-outgoing-0 << "Content-Type: text/html; charset=utf-8[\r][\n]"
+2020-01-11 15:36:07 [ I/O dispatcher 1:606704 ] - [ DEBUG ] http-outgoing-0 << "Content-Length: 189[\r][\n]"
+2020-01-11 15:36:07 [ I/O dispatcher 1:606704 ] - [ DEBUG ] http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2020-01-11 15:36:07 [ I/O dispatcher 1:606704 ] - [ DEBUG ] http-outgoing-0 << "Kss-Upstream: 120.52.72.22:8080[\r][\n]"
+2020-01-11 15:36:07 [ I/O dispatcher 1:606704 ] - [ DEBUG ] http-outgoing-0 << "[\r][\n]"
+2020-01-11 15:36:07 [ I/O dispatcher 1:606704 ] - [ DEBUG ] http-outgoing-0 << "<html>[\r][\n]"
+2020-01-11 15:36:07 [ I/O dispatcher 1:606704 ] - [ DEBUG ] http-outgoing-0 << "<head><title>504 Gateway Time-out</title></head>[\r][\n]"
+2020-01-11 15:36:07 [ I/O dispatcher 1:606704 ] - [ DEBUG ] http-outgoing-0 << "<body bgcolor="white">[\r][\n]"
+2020-01-11 15:36:07 [ I/O dispatcher 1:606704 ] - [ DEBUG ] http-outgoing-0 << "<center><h1>504 Gateway Time-out</h1></center>[\r][\n]"
+2020-01-11 15:36:07 [ I/O dispatcher 1:606704 ] - [ DEBUG ] http-outgoing-0 << "<hr><center>openresty/1.13.6.2</center>[\r][\n]"
+2020-01-11 15:36:07 [ I/O dispatcher 1:606704 ] - [ DEBUG ] http-outgoing-0 << "</body>[\r][\n]"
+2020-01-11 15:36:07 [ I/O dispatcher 1:606704 ] - [ DEBUG ] http-outgoing-0 << "</html>[\r][\n]"
+2020-01-11 15:36:07 [ I/O dispatcher 1:606710 ] - [ DEBUG ] http-outgoing-0 << HTTP/1.1 504 Gateway Time-out
+2020-01-11 15:36:07 [ I/O dispatcher 1:606710 ] - [ DEBUG ] http-outgoing-0 << Server: openresty/1.13.6.2
+2020-01-11 15:36:07 [ I/O dispatcher 1:606710 ] - [ DEBUG ] http-outgoing-0 << Date: Sat, 11 Jan 2020 07:36:04 GMT
+2020-01-11 15:36:07 [ I/O dispatcher 1:606710 ] - [ DEBUG ] http-outgoing-0 << Content-Type: text/html; charset=utf-8
+2020-01-11 15:36:07 [ I/O dispatcher 1:606710 ] - [ DEBUG ] http-outgoing-0 << Content-Length: 189
+2020-01-11 15:36:07 [ I/O dispatcher 1:606710 ] - [ DEBUG ] http-outgoing-0 << Connection: keep-alive
+2020-01-11 15:36:07 [ I/O dispatcher 1:606710 ] - [ DEBUG ] http-outgoing-0 << Kss-Upstream: 120.52.72.22:8080
+2020-01-11 15:36:07 [ I/O dispatcher 1:606710 ] - [ DEBUG ] http-outgoing-0 [ACTIVE(189)] Response received
+2020-01-11 15:36:07 [ I/O dispatcher 1:606711 ] - [ DEBUG ] [exchange: 1] Response received HTTP/1.1 504 Gateway Time-out
+2020-01-11 15:36:07 [ I/O dispatcher 1:606718 ] - [ DEBUG ] http-outgoing-0 [ACTIVE(189)] Input ready
+2020-01-11 15:36:07 [ I/O dispatcher 1:606718 ] - [ DEBUG ] [exchange: 1] Consume content
+2020-01-11 15:36:07 [ I/O dispatcher 1:606719 ] - [ DEBUG ] [exchange: 1] Connection can be kept alive indefinitely
+2020-01-11 15:36:07 [ I/O dispatcher 1:606721 ] - [ DEBUG ] [exchange: 1] Response processed
+2020-01-11 15:36:07 [ I/O dispatcher 1:606721 ] - [ DEBUG ] [exchange: 1] releasing connection
+2020-01-11 15:36:07 [ I/O dispatcher 1:606721 ] - [ DEBUG ] http-outgoing-0 192.168.3.7:61648<->120.52.72.82:8090[ACTIVE][r:r]: Remove attribute http.nio.exchange-handler
+2020-01-11 15:36:07 [ I/O dispatcher 1:606721 ] - [ DEBUG ] Releasing connection: [id: http-outgoing-0][route: {}->http://4gqos.h2comm.com.cn:8090][total kept alive: 0; route allocated: 1 of 100; total allocated: 1 of 100]
+2020-01-11 15:36:07 [ I/O dispatcher 1:606722 ] - [ DEBUG ] Connection [id: http-outgoing-0][route: {}->http://4gqos.h2comm.com.cn:8090] can be kept alive indefinitely
+2020-01-11 15:36:07 [ I/O dispatcher 1:606722 ] - [ DEBUG ] http-outgoing-0 192.168.3.7:61648<->120.52.72.82:8090[ACTIVE][r:r]: Set timeout 0
+2020-01-11 15:36:07 [ I/O dispatcher 1:606722 ] - [ DEBUG ] Connection released: [id: http-outgoing-0][route: {}->http://4gqos.h2comm.com.cn:8090][total kept alive: 1; route allocated: 1 of 100; total allocated: 1 of 100]
+2020-01-11 15:36:07 [ I/O dispatcher 1:606724 ] - [ INFO ] netinfo speed response<html>
+<head><title>504 Gateway Time-out</title></head>
+<body bgcolor="white">
+<center><h1>504 Gateway Time-out</h1></center>
+<hr><center>openresty/1.13.6.2</center>
+</body>
+</html>
+
+2020-01-11 15:36:07 [ I/O dispatcher 1:606727 ] - [ INFO ] netinfo speed response is not jsonobject
+2020-01-11 15:36:07 [ I/O dispatcher 1:606759 ] - [ DEBUG ] http-outgoing-0 [ACTIVE] [content length: 189; pos: 189; completed: true]
+2020-01-11 15:38:07 [ I/O dispatcher 1:726694 ] - [ DEBUG ] http-outgoing-0 192.168.3.7:61648<->120.52.72.82:8090[ACTIVE][r:r]: -1 bytes read
+2020-01-11 15:38:07 [ I/O dispatcher 1:726694 ] - [ DEBUG ] http-outgoing-0 [ACTIVE] End of input
+2020-01-11 15:38:07 [ I/O dispatcher 1:726694 ] - [ DEBUG ] http-outgoing-0 192.168.3.7:61648<->120.52.72.82:8090[ACTIVE][r:r]: Set timeout 1000
+2020-01-11 15:38:07 [ I/O dispatcher 1:726694 ] - [ DEBUG ] http-outgoing-0 192.168.3.7:61648<->120.52.72.82:8090[ACTIVE][r:r]: Close
+2020-01-11 15:38:07 [ I/O dispatcher 1:726695 ] - [ DEBUG ] http-outgoing-0 [CLOSED]: Disconnected
+2020-01-11 15:41:00 [ Timer-0:900001 ] - [ INFO ] Task started
+2020-01-11 15:41:00 [ Timer-0:900001 ] - [ INFO ] Task closed
+2020-01-11 15:44:22 [ http-bio-8080-exec-2:1101449 ] - [ INFO ] response is {"params":{"RemoteAddress":"8.8.8.8","LocalAddress":"10.8.0.2","PackageName":"com.tencent.tmgp.sgame","LocalPort":"-16747","RemotePort":"53","Protocol":"2","Result":"success","AppName":"王者荣耀"}} 0
+2020-01-11 15:44:22 [ http-bio-8080-exec-2:1101469 ] - [ INFO ] received speed item 8.8.8.8 -16747 1
+2020-01-11 15:44:22 [ http-bio-8080-exec-2:1101607 ] - [ INFO ] netinfo has found in delete 8.8.8.8 -16747 1
+2020-01-11 15:46:00 [ Timer-0:1200001 ] - [ INFO ] Task started
+2020-01-11 15:46:00 [ Timer-0:1200002 ] - [ INFO ] Task closed
+2020-01-11 18:06:18 [ Timer-0:9618030 ] - [ INFO ] Task started
+2020-01-11 18:11:01 [ http-bio-8080-exec-6:9900633 ] - [ INFO ] response is {"params":{"RemoteAddress":"8.8.8.8","LocalAddress":"10.8.0.2","PackageName":"com.tencent.tmgp.sgame","LocalPort":"6783","RemotePort":"53","Protocol":"2","Result":"success","AppName":"王者荣耀"}} 1
+2020-01-11 18:11:01 [ http-bio-8080-exec-6:9900747 ] - [ INFO ] received speed item 8.8.8.8 6783 1
+2020-01-11 18:11:01 [ http-bio-8080-exec-6:9900818 ] - [ INFO ] RequestDAO is 8.8.8.8 6783 1
+2020-01-11 18:11:01 [ http-bio-8080-exec-6:9900818 ] - [ INFO ] netinfo has added into the queue 8.8.8.8 6783 1
+2020-01-11 18:11:01 [ http-bio-8080-exec-6:9900823 ] - [ DEBUG ] [exchange: 2] start execution
+2020-01-11 18:11:01 [ http-bio-8080-exec-6:9900823 ] - [ DEBUG ] CookieSpec selected: default
+2020-01-11 18:11:01 [ http-bio-8080-exec-6:9900823 ] - [ DEBUG ] Auth cache not set in the context
+2020-01-11 18:11:01 [ http-bio-8080-exec-6:9900823 ] - [ DEBUG ] [exchange: 2] Request connection for {}->http://4gqos.h2comm.com.cn:8090
+2020-01-11 18:11:01 [ http-bio-8080-exec-6:9900824 ] - [ DEBUG ] Connection request: [route: {}->http://4gqos.h2comm.com.cn:8090][total kept alive: 0; route allocated: 0 of 100; total allocated: 0 of 100]
+2020-01-11 18:11:01 [ http-bio-8080-exec-6:9900885 ] - [ INFO ] AsynPost has sent {"Partner_ID":"moonbay","security_token":"","ResourceFeatureProperties":[{"FlowProperties":[{"DestinationIpAddress":"8.8.8.8","MaximumUpStreamSpeedRate":"512000","MaximumDownStreamSpeedRate":"512000","Protocol":"2","Direction":"2","DestinationPort":"53"}],"Type":"3","Priority":"15"},{"MinimumDownStreamSpeedRate":"307200","MinimumUpStreamSpeedRate":"307200"}],"Duration":"300","UserIdentifier":{"PublicIP":"183.193.178.9","IP":"10.8.0.2"},"ServiceId":"Games100K"}
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900948 ] - [ DEBUG ] Connection leased: [id: http-outgoing-1][route: {}->http://4gqos.h2comm.com.cn:8090][total kept alive: 0; route allocated: 1 of 100; total allocated: 0 of 100]
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900948 ] - [ DEBUG ] [exchange: 2] Connection allocated: CPoolProxy{http-outgoing-1 [ACTIVE]}
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900949 ] - [ DEBUG ] http-outgoing-1 192.168.3.7:62350<->120.52.72.82:8090[ACTIVE][r:]: Set attribute http.nio.exchange-handler
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900949 ] - [ DEBUG ] http-outgoing-1 192.168.3.7:62350<->120.52.72.82:8090[ACTIVE][rw:]: Event set [w]
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900949 ] - [ DEBUG ] http-outgoing-1 192.168.3.7:62350<->120.52.72.82:8090[ACTIVE][rw:]: Set timeout 0
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900949 ] - [ DEBUG ] http-outgoing-1 [ACTIVE]: Connected
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900950 ] - [ DEBUG ] http-outgoing-1 192.168.3.7:62350<->120.52.72.82:8090[ACTIVE][rw:]: Set attribute http.nio.http-exchange-state
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900950 ] - [ DEBUG ] [exchange: 2] Start connection routing
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900950 ] - [ DEBUG ] [exchange: 2] route completed
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900950 ] - [ DEBUG ] [exchange: 2] Connection route established
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900950 ] - [ DEBUG ] [exchange: 2] Attempt 1 to execute request
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900950 ] - [ DEBUG ] [exchange: 2] Target auth state: UNCHALLENGED
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900950 ] - [ DEBUG ] [exchange: 2] Proxy auth state: UNCHALLENGED
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900950 ] - [ DEBUG ] http-outgoing-1 192.168.3.7:62350<->120.52.72.82:8090[ACTIVE][rw:]: Set timeout 50000
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900950 ] - [ DEBUG ] http-outgoing-1 >> POST /ivsp/services/AACAPIV1/applyTecentGamesQoS HTTP/1.1
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900951 ] - [ DEBUG ] http-outgoing-1 >> Content-Type: application/json;charset=utf-8
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900951 ] - [ DEBUG ] http-outgoing-1 >> Accept: application/json
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900951 ] - [ DEBUG ] http-outgoing-1 >> Content-Length: 464
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900951 ] - [ DEBUG ] http-outgoing-1 >> Host: 4gqos.h2comm.com.cn:8090
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900951 ] - [ DEBUG ] http-outgoing-1 >> Connection: Keep-Alive
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900951 ] - [ DEBUG ] http-outgoing-1 >> User-Agent: Apache-HttpAsyncClient/4.1.4 (Java/1.8.0_192)
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900952 ] - [ DEBUG ] http-outgoing-1 192.168.3.7:62350<->120.52.72.82:8090[ACTIVE][rw:]: Event set [w]
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900952 ] - [ DEBUG ] http-outgoing-1 [ACTIVE] Output ready
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900952 ] - [ DEBUG ] [exchange: 2] produce content
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900952 ] - [ DEBUG ] [exchange: 2] Request completed
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900952 ] - [ DEBUG ] http-outgoing-1 [ACTIVE] [content length: 464; pos: 464; completed: true]
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900953 ] - [ DEBUG ] http-outgoing-1 192.168.3.7:62350<->120.52.72.82:8090[ACTIVE][rw:w]: 733 bytes written
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900953 ] - [ DEBUG ] http-outgoing-1 >> "POST /ivsp/services/AACAPIV1/applyTecentGamesQoS HTTP/1.1[\r][\n]"
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900953 ] - [ DEBUG ] http-outgoing-1 >> "Content-Type: application/json;charset=utf-8[\r][\n]"
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900953 ] - [ DEBUG ] http-outgoing-1 >> "Accept: application/json[\r][\n]"
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900953 ] - [ DEBUG ] http-outgoing-1 >> "Content-Length: 464[\r][\n]"
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900953 ] - [ DEBUG ] http-outgoing-1 >> "Host: 4gqos.h2comm.com.cn:8090[\r][\n]"
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900953 ] - [ DEBUG ] http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900953 ] - [ DEBUG ] http-outgoing-1 >> "User-Agent: Apache-HttpAsyncClient/4.1.4 (Java/1.8.0_192)[\r][\n]"
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900953 ] - [ DEBUG ] http-outgoing-1 >> "[\r][\n]"
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900954 ] - [ DEBUG ] http-outgoing-1 >> "{"Partner_ID":"moonbay","security_token":"","ResourceFeatureProperties":[{"FlowProperties":[{"DestinationIpAddress":"8.8.8.8","MaximumUpStreamSpeedRate":"512000","MaximumDownStreamSpeedRate":"512000","Protocol":"2","Direction":"2","DestinationPort":"53"}],"Type":"3","Priority":"15"},{"MinimumDownStreamSpeedRate":"307200","MinimumUpStreamSpeedRate":"307200"}],"Duration":"300","UserIdentifier":{"PublicIP":"183.193.178.9","IP":"10.8.0.2"},"ServiceId":"Games100K"}"
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900954 ] - [ DEBUG ] http-outgoing-1 [ACTIVE] Request ready
+2020-01-11 18:11:01 [ I/O dispatcher 5:9900954 ] - [ DEBUG ] http-outgoing-1 192.168.3.7:62350<->120.52.72.82:8090[ACTIVE][r:w]: Event cleared [w]
+2020-01-11 18:11:11 [ I/O dispatcher 5:9911009 ] - [ DEBUG ] http-outgoing-1 192.168.3.7:62350<->120.52.72.82:8090[ACTIVE][r:r]: 405 bytes read
+2020-01-11 18:11:11 [ I/O dispatcher 5:9911009 ] - [ DEBUG ] http-outgoing-1 << "HTTP/1.1 504 Gateway Time-out[\r][\n]"
+2020-01-11 18:11:11 [ I/O dispatcher 5:9911009 ] - [ DEBUG ] http-outgoing-1 << "Server: openresty/1.13.6.2[\r][\n]"
+2020-01-11 18:11:11 [ I/O dispatcher 5:9911009 ] - [ DEBUG ] http-outgoing-1 << "Date: Sat, 11 Jan 2020 10:11:11 GMT[\r][\n]"
+2020-01-11 18:11:11 [ I/O dispatcher 5:9911009 ] - [ DEBUG ] http-outgoing-1 << "Content-Type: text/html; charset=utf-8[\r][\n]"
+2020-01-11 18:11:11 [ I/O dispatcher 5:9911010 ] - [ DEBUG ] http-outgoing-1 << "Content-Length: 189[\r][\n]"
+2020-01-11 18:11:11 [ I/O dispatcher 5:9911010 ] - [ DEBUG ] http-outgoing-1 << "Connection: keep-alive[\r][\n]"
+2020-01-11 18:11:11 [ I/O dispatcher 5:9911010 ] - [ DEBUG ] http-outgoing-1 << "Kss-Upstream: 120.52.72.22:8080[\r][\n]"
+2020-01-11 18:11:11 [ I/O dispatcher 5:9911010 ] - [ DEBUG ] http-outgoing-1 << "[\r][\n]"
+2020-01-11 18:11:11 [ I/O dispatcher 5:9911010 ] - [ DEBUG ] http-outgoing-1 << "<html>[\r][\n]"
+2020-01-11 18:11:11 [ I/O dispatcher 5:9911010 ] - [ DEBUG ] http-outgoing-1 << "<head><title>504 Gateway Time-out</title></head>[\r][\n]"
+2020-01-11 18:11:11 [ I/O dispatcher 5:9911010 ] - [ DEBUG ] http-outgoing-1 << "<body bgcolor="white">[\r][\n]"
+2020-01-11 18:11:11 [ I/O dispatcher 5:9911010 ] - [ DEBUG ] http-outgoing-1 << "<center><h1>504 Gateway Time-out</h1></center>[\r][\n]"
+2020-01-11 18:11:11 [ I/O dispatcher 5:9911010 ] - [ DEBUG ] http-outgoing-1 << "<hr><center>openresty/1.13.6.2</center>[\r][\n]"
+2020-01-11 18:11:11 [ I/O dispatcher 5:9911010 ] - [ DEBUG ] http-outgoing-1 << "</body>[\r][\n]"
+2020-01-11 18:11:11 [ I/O dispatcher 5:9911010 ] - [ DEBUG ] http-outgoing-1 << "</html>[\r][\n]"
+2020-01-11 18:11:11 [ I/O dispatcher 5:9911010 ] - [ DEBUG ] http-outgoing-1 << HTTP/1.1 504 Gateway Time-out
+2020-01-11 18:11:11 [ I/O dispatcher 5:9911010 ] - [ DEBUG ] http-outgoing-1 << Server: openresty/1.13.6.2
+2020-01-11 18:11:11 [ I/O dispatcher 5:9911010 ] - [ DEBUG ] http-outgoing-1 << Date: Sat, 11 Jan 2020 10:11:11 GMT
+2020-01-11 18:11:11 [ I/O dispatcher 5:9911010 ] - [ DEBUG ] http-outgoing-1 << Content-Type: text/html; charset=utf-8
+2020-01-11 18:11:11 [ I/O dispatcher 5:9911010 ] - [ DEBUG ] http-outgoing-1 << Content-Length: 189
+2020-01-11 18:11:11 [ I/O dispatcher 5:9911010 ] - [ DEBUG ] http-outgoing-1 << Connection: keep-alive
+2020-01-11 18:11:11 [ I/O dispatcher 5:9911010 ] - [ DEBUG ] http-outgoing-1 << Kss-Upstream: 120.52.72.22:8080
+2020-01-11 18:11:11 [ I/O dispatcher 5:9911011 ] - [ DEBUG ] http-outgoing-1 [ACTIVE(189)] Response received
+2020-01-11 18:11:11 [ I/O dispatcher 5:9911011 ] - [ DEBUG ] [exchange: 2] Response received HTTP/1.1 504 Gateway Time-out
+2020-01-11 18:11:11 [ I/O dispatcher 5:9911011 ] - [ DEBUG ] http-outgoing-1 [ACTIVE(189)] Input ready
+2020-01-11 18:11:11 [ I/O dispatcher 5:9911011 ] - [ DEBUG ] [exchange: 2] Consume content
+2020-01-11 18:11:11 [ I/O dispatcher 5:9911011 ] - [ DEBUG ] [exchange: 2] Connection can be kept alive indefinitely
+2020-01-11 18:11:11 [ I/O dispatcher 5:9911011 ] - [ DEBUG ] [exchange: 2] Response processed
+2020-01-11 18:11:11 [ I/O dispatcher 5:9911012 ] - [ DEBUG ] [exchange: 2] releasing connection
+2020-01-11 18:11:11 [ I/O dispatcher 5:9911012 ] - [ DEBUG ] http-outgoing-1 192.168.3.7:62350<->120.52.72.82:8090[ACTIVE][r:r]: Remove attribute http.nio.exchange-handler
+2020-01-11 18:11:11 [ I/O dispatcher 5:9911012 ] - [ DEBUG ] Releasing connection: [id: http-outgoing-1][route: {}->http://4gqos.h2comm.com.cn:8090][total kept alive: 0; route allocated: 1 of 100; total allocated: 1 of 100]
+2020-01-11 18:11:11 [ I/O dispatcher 5:9911012 ] - [ DEBUG ] Connection [id: http-outgoing-1][route: {}->http://4gqos.h2comm.com.cn:8090] can be kept alive indefinitely
+2020-01-11 18:11:11 [ I/O dispatcher 5:9911012 ] - [ DEBUG ] http-outgoing-1 192.168.3.7:62350<->120.52.72.82:8090[ACTIVE][r:r]: Set timeout 0
+2020-01-11 18:11:11 [ I/O dispatcher 5:9911012 ] - [ DEBUG ] Connection released: [id: http-outgoing-1][route: {}->http://4gqos.h2comm.com.cn:8090][total kept alive: 1; route allocated: 1 of 100; total allocated: 1 of 100]
+2020-01-11 18:11:11 [ I/O dispatcher 5:9911012 ] - [ INFO ] netinfo speed response<html>
+<head><title>504 Gateway Time-out</title></head>
+<body bgcolor="white">
+<center><h1>504 Gateway Time-out</h1></center>
+<hr><center>openresty/1.13.6.2</center>
+</body>
+</html>
+
+2020-01-11 18:11:11 [ I/O dispatcher 5:9911013 ] - [ INFO ] netinfo speed response is not jsonobject
+2020-01-11 18:11:12 [ I/O dispatcher 5:9911082 ] - [ DEBUG ] http-outgoing-1 [ACTIVE] [content length: 189; pos: 189; completed: true]
+2020-01-11 18:13:11 [ I/O dispatcher 5:10031003 ] - [ DEBUG ] http-outgoing-1 192.168.3.7:62350<->120.52.72.82:8090[ACTIVE][r:r]: -1 bytes read
+2020-01-11 18:13:11 [ I/O dispatcher 5:10031003 ] - [ DEBUG ] http-outgoing-1 [ACTIVE] End of input
+2020-01-11 18:13:11 [ I/O dispatcher 5:10031003 ] - [ DEBUG ] http-outgoing-1 192.168.3.7:62350<->120.52.72.82:8090[ACTIVE][r:r]: Set timeout 1000
+2020-01-11 18:13:11 [ I/O dispatcher 5:10031003 ] - [ DEBUG ] http-outgoing-1 192.168.3.7:62350<->120.52.72.82:8090[ACTIVE][r:r]: Close
+2020-01-11 18:13:11 [ I/O dispatcher 5:10031004 ] - [ DEBUG ] http-outgoing-1 [CLOSED]: Disconnected
+2020-01-11 18:19:30 [ http-bio-8080-exec-9:10409113 ] - [ INFO ] response is {"params":{"RemoteAddress":"8.8.8.8","LocalAddress":"10.8.0.2","PackageName":"com.tencent.tmgp.sgame","LocalPort":"6783","RemotePort":"53","Protocol":"2","Result":"success","AppName":"王者荣耀"}} 0
+2020-01-11 18:19:30 [ http-bio-8080-exec-9:10409278 ] - [ INFO ] received speed item 8.8.8.8 6783 1
+2020-01-11 18:19:30 [ http-bio-8080-exec-9:10409366 ] - [ INFO ] netinfo has found in delete 8.8.8.8 6783 1
+2020-01-11 18:20:37 [ http-bio-8080-exec-6:10476285 ] - [ INFO ] response is {"params":{"RemoteAddress":"120.204.9.105","LocalAddress":"192.168.3.2","PackageName":"com.tencent.tmgp.sgame","LocalPort":"-15656","RemotePort":"3013","Protocol":"0","Result":"success","AppName":"王者荣耀"}} 1
+2020-01-11 18:20:37 [ http-bio-8080-exec-6:10476413 ] - [ INFO ] received speed item 120.204.9.105 -15656 1
+2020-01-11 18:20:37 [ http-bio-8080-exec-6:10476805 ] - [ INFO ] RequestDAO is 120.204.9.105 -15656 1
+2020-01-11 18:20:37 [ http-bio-8080-exec-6:10476805 ] - [ INFO ] netinfo has added into the queue 120.204.9.105 -15656 1
+2020-01-11 18:20:37 [ http-bio-8080-exec-6:10476828 ] - [ DEBUG ] [exchange: 3] start execution
+2020-01-11 18:20:37 [ http-bio-8080-exec-6:10476828 ] - [ DEBUG ] CookieSpec selected: default
+2020-01-11 18:20:37 [ http-bio-8080-exec-6:10476828 ] - [ DEBUG ] Auth cache not set in the context
+2020-01-11 18:20:37 [ http-bio-8080-exec-6:10476828 ] - [ DEBUG ] [exchange: 3] Request connection for {}->http://4gqos.h2comm.com.cn:8090
+2020-01-11 18:20:37 [ http-bio-8080-exec-6:10476828 ] - [ DEBUG ] Connection request: [route: {}->http://4gqos.h2comm.com.cn:8090][total kept alive: 0; route allocated: 0 of 100; total allocated: 0 of 100]
+2020-01-11 18:20:37 [ http-bio-8080-exec-6:10476945 ] - [ INFO ] AsynPost has sent {"Partner_ID":"moonbay","security_token":"","ResourceFeatureProperties":[{"FlowProperties":[{"DestinationIpAddress":"120.204.9.105","MaximumUpStreamSpeedRate":"512000","MaximumDownStreamSpeedRate":"512000","Protocol":"0","Direction":"2","DestinationPort":"3013"}],"Type":"3","Priority":"15"},{"MinimumDownStreamSpeedRate":"307200","MinimumUpStreamSpeedRate":"307200"}],"Duration":"300","UserIdentifier":{"PublicIP":"183.193.178.9","IP":"192.168.3.2"},"ServiceId":"Games100K"}
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477007 ] - [ DEBUG ] Connection leased: [id: http-outgoing-2][route: {}->http://4gqos.h2comm.com.cn:8090][total kept alive: 0; route allocated: 1 of 100; total allocated: 0 of 100]
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477007 ] - [ DEBUG ] [exchange: 3] Connection allocated: CPoolProxy{http-outgoing-2 [ACTIVE]}
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477008 ] - [ DEBUG ] http-outgoing-2 192.168.3.7:62786<->120.52.72.82:8090[ACTIVE][r:]: Set attribute http.nio.exchange-handler
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477008 ] - [ DEBUG ] http-outgoing-2 192.168.3.7:62786<->120.52.72.82:8090[ACTIVE][rw:]: Event set [w]
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477008 ] - [ DEBUG ] http-outgoing-2 192.168.3.7:62786<->120.52.72.82:8090[ACTIVE][rw:]: Set timeout 0
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477008 ] - [ DEBUG ] http-outgoing-2 [ACTIVE]: Connected
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477008 ] - [ DEBUG ] http-outgoing-2 192.168.3.7:62786<->120.52.72.82:8090[ACTIVE][rw:]: Set attribute http.nio.http-exchange-state
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477008 ] - [ DEBUG ] [exchange: 3] Start connection routing
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477008 ] - [ DEBUG ] [exchange: 3] route completed
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477008 ] - [ DEBUG ] [exchange: 3] Connection route established
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477008 ] - [ DEBUG ] [exchange: 3] Attempt 1 to execute request
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477009 ] - [ DEBUG ] [exchange: 3] Target auth state: UNCHALLENGED
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477009 ] - [ DEBUG ] [exchange: 3] Proxy auth state: UNCHALLENGED
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477009 ] - [ DEBUG ] http-outgoing-2 192.168.3.7:62786<->120.52.72.82:8090[ACTIVE][rw:]: Set timeout 50000
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477009 ] - [ DEBUG ] http-outgoing-2 >> POST /ivsp/services/AACAPIV1/applyTecentGamesQoS HTTP/1.1
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477009 ] - [ DEBUG ] http-outgoing-2 >> Content-Type: application/json;charset=utf-8
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477009 ] - [ DEBUG ] http-outgoing-2 >> Accept: application/json
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477009 ] - [ DEBUG ] http-outgoing-2 >> Content-Length: 475
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477009 ] - [ DEBUG ] http-outgoing-2 >> Host: 4gqos.h2comm.com.cn:8090
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477009 ] - [ DEBUG ] http-outgoing-2 >> Connection: Keep-Alive
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477009 ] - [ DEBUG ] http-outgoing-2 >> User-Agent: Apache-HttpAsyncClient/4.1.4 (Java/1.8.0_192)
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477009 ] - [ DEBUG ] http-outgoing-2 192.168.3.7:62786<->120.52.72.82:8090[ACTIVE][rw:]: Event set [w]
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477009 ] - [ DEBUG ] http-outgoing-2 [ACTIVE] Output ready
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477009 ] - [ DEBUG ] [exchange: 3] produce content
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477009 ] - [ DEBUG ] [exchange: 3] Request completed
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477010 ] - [ DEBUG ] http-outgoing-2 [ACTIVE] [content length: 475; pos: 475; completed: true]
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477010 ] - [ DEBUG ] http-outgoing-2 192.168.3.7:62786<->120.52.72.82:8090[ACTIVE][rw:w]: 744 bytes written
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477010 ] - [ DEBUG ] http-outgoing-2 >> "POST /ivsp/services/AACAPIV1/applyTecentGamesQoS HTTP/1.1[\r][\n]"
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477010 ] - [ DEBUG ] http-outgoing-2 >> "Content-Type: application/json;charset=utf-8[\r][\n]"
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477010 ] - [ DEBUG ] http-outgoing-2 >> "Accept: application/json[\r][\n]"
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477010 ] - [ DEBUG ] http-outgoing-2 >> "Content-Length: 475[\r][\n]"
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477010 ] - [ DEBUG ] http-outgoing-2 >> "Host: 4gqos.h2comm.com.cn:8090[\r][\n]"
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477010 ] - [ DEBUG ] http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477010 ] - [ DEBUG ] http-outgoing-2 >> "User-Agent: Apache-HttpAsyncClient/4.1.4 (Java/1.8.0_192)[\r][\n]"
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477010 ] - [ DEBUG ] http-outgoing-2 >> "[\r][\n]"
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477010 ] - [ DEBUG ] http-outgoing-2 >> "{"Partner_ID":"moonbay","security_token":"","ResourceFeatureProperties":[{"FlowProperties":[{"DestinationIpAddress":"120.204.9.105","MaximumUpStreamSpeedRate":"512000","MaximumDownStreamSpeedRate":"512000","Protocol":"0","Direction":"2","DestinationPort":"3013"}],"Type":"3","Priority":"15"},{"MinimumDownStreamSpeedRate":"307200","MinimumUpStreamSpeedRate":"307200"}],"Duration":"300","UserIdentifier":{"PublicIP":"183.193.178.9","IP":"192.168.3.2"},"ServiceId":"Games100K"}"
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477010 ] - [ DEBUG ] http-outgoing-2 [ACTIVE] Request ready
+2020-01-11 18:20:37 [ I/O dispatcher 9:10477011 ] - [ DEBUG ] http-outgoing-2 192.168.3.7:62786<->120.52.72.82:8090[ACTIVE][r:w]: Event cleared [w]
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487075 ] - [ DEBUG ] http-outgoing-2 192.168.3.7:62786<->120.52.72.82:8090[ACTIVE][r:r]: 405 bytes read
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487076 ] - [ DEBUG ] http-outgoing-2 << "HTTP/1.1 504 Gateway Time-out[\r][\n]"
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487076 ] - [ DEBUG ] http-outgoing-2 << "Server: openresty/1.13.6.2[\r][\n]"
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487076 ] - [ DEBUG ] http-outgoing-2 << "Date: Sat, 11 Jan 2020 10:20:48 GMT[\r][\n]"
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487076 ] - [ DEBUG ] http-outgoing-2 << "Content-Type: text/html; charset=utf-8[\r][\n]"
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487076 ] - [ DEBUG ] http-outgoing-2 << "Content-Length: 189[\r][\n]"
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487076 ] - [ DEBUG ] http-outgoing-2 << "Connection: keep-alive[\r][\n]"
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487076 ] - [ DEBUG ] http-outgoing-2 << "Kss-Upstream: 120.52.72.22:8080[\r][\n]"
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487076 ] - [ DEBUG ] http-outgoing-2 << "[\r][\n]"
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487076 ] - [ DEBUG ] http-outgoing-2 << "<html>[\r][\n]"
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487076 ] - [ DEBUG ] http-outgoing-2 << "<head><title>504 Gateway Time-out</title></head>[\r][\n]"
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487076 ] - [ DEBUG ] http-outgoing-2 << "<body bgcolor="white">[\r][\n]"
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487076 ] - [ DEBUG ] http-outgoing-2 << "<center><h1>504 Gateway Time-out</h1></center>[\r][\n]"
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487076 ] - [ DEBUG ] http-outgoing-2 << "<hr><center>openresty/1.13.6.2</center>[\r][\n]"
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487076 ] - [ DEBUG ] http-outgoing-2 << "</body>[\r][\n]"
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487076 ] - [ DEBUG ] http-outgoing-2 << "</html>[\r][\n]"
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487077 ] - [ DEBUG ] http-outgoing-2 << HTTP/1.1 504 Gateway Time-out
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487077 ] - [ DEBUG ] http-outgoing-2 << Server: openresty/1.13.6.2
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487077 ] - [ DEBUG ] http-outgoing-2 << Date: Sat, 11 Jan 2020 10:20:48 GMT
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487077 ] - [ DEBUG ] http-outgoing-2 << Content-Type: text/html; charset=utf-8
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487077 ] - [ DEBUG ] http-outgoing-2 << Content-Length: 189
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487077 ] - [ DEBUG ] http-outgoing-2 << Connection: keep-alive
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487077 ] - [ DEBUG ] http-outgoing-2 << Kss-Upstream: 120.52.72.22:8080
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487077 ] - [ DEBUG ] http-outgoing-2 [ACTIVE(189)] Response received
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487077 ] - [ DEBUG ] [exchange: 3] Response received HTTP/1.1 504 Gateway Time-out
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487077 ] - [ DEBUG ] http-outgoing-2 [ACTIVE(189)] Input ready
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487077 ] - [ DEBUG ] [exchange: 3] Consume content
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487077 ] - [ DEBUG ] [exchange: 3] Connection can be kept alive indefinitely
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487078 ] - [ DEBUG ] [exchange: 3] Response processed
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487078 ] - [ DEBUG ] [exchange: 3] releasing connection
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487078 ] - [ DEBUG ] http-outgoing-2 192.168.3.7:62786<->120.52.72.82:8090[ACTIVE][r:r]: Remove attribute http.nio.exchange-handler
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487078 ] - [ DEBUG ] Releasing connection: [id: http-outgoing-2][route: {}->http://4gqos.h2comm.com.cn:8090][total kept alive: 0; route allocated: 1 of 100; total allocated: 1 of 100]
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487078 ] - [ DEBUG ] Connection [id: http-outgoing-2][route: {}->http://4gqos.h2comm.com.cn:8090] can be kept alive indefinitely
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487078 ] - [ DEBUG ] http-outgoing-2 192.168.3.7:62786<->120.52.72.82:8090[ACTIVE][r:r]: Set timeout 0
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487078 ] - [ DEBUG ] Connection released: [id: http-outgoing-2][route: {}->http://4gqos.h2comm.com.cn:8090][total kept alive: 1; route allocated: 1 of 100; total allocated: 1 of 100]
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487079 ] - [ INFO ] netinfo speed response<html>
+<head><title>504 Gateway Time-out</title></head>
+<body bgcolor="white">
+<center><h1>504 Gateway Time-out</h1></center>
+<hr><center>openresty/1.13.6.2</center>
+</body>
+</html>
+
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487079 ] - [ INFO ] netinfo speed response is not jsonobject
+2020-01-11 18:20:48 [ I/O dispatcher 9:10487092 ] - [ DEBUG ] http-outgoing-2 [ACTIVE] [content length: 189; pos: 189; completed: true]
+2020-01-11 18:22:48 [ I/O dispatcher 9:10607067 ] - [ DEBUG ] http-outgoing-2 192.168.3.7:62786<->120.52.72.82:8090[ACTIVE][r:r]: -1 bytes read
+2020-01-11 18:22:48 [ I/O dispatcher 9:10607068 ] - [ DEBUG ] http-outgoing-2 [ACTIVE] End of input
+2020-01-11 18:22:48 [ I/O dispatcher 9:10607068 ] - [ DEBUG ] http-outgoing-2 192.168.3.7:62786<->120.52.72.82:8090[ACTIVE][r:r]: Set timeout 1000
+2020-01-11 18:22:48 [ I/O dispatcher 9:10607068 ] - [ DEBUG ] http-outgoing-2 192.168.3.7:62786<->120.52.72.82:8090[ACTIVE][r:r]: Close
+2020-01-11 18:22:48 [ I/O dispatcher 9:10607068 ] - [ DEBUG ] http-outgoing-2 [CLOSED]: Disconnected
+2020-01-11 18:24:43 [ http-bio-8080-exec-4:10722596 ] - [ INFO ] response is {"params":{"RemoteAddress":"8.8.8.8","LocalAddress":"10.8.0.2","PackageName":"com.ximalaya.ting.android","LocalPort":"-23930","RemotePort":"53","Protocol":"2","Result":"success","AppName":"喜马拉雅"}} 1
+2020-01-11 18:24:44 [ http-bio-8080-exec-4:10723810 ] - [ INFO ] received speed item 8.8.8.8 -23930 1
+2020-01-11 18:24:45 [ http-bio-8080-exec-4:10724459 ] - [ INFO ] RequestDAO is 8.8.8.8 -23930 1
+2020-01-11 18:24:45 [ http-bio-8080-exec-4:10724459 ] - [ INFO ] netinfo has added into the queue 8.8.8.8 -23930 1
+2020-01-11 18:24:45 [ http-bio-8080-exec-4:10724465 ] - [ DEBUG ] [exchange: 4] start execution
+2020-01-11 18:24:45 [ http-bio-8080-exec-4:10724465 ] - [ DEBUG ] CookieSpec selected: default
+2020-01-11 18:24:45 [ http-bio-8080-exec-4:10724465 ] - [ DEBUG ] Auth cache not set in the context
+2020-01-11 18:24:45 [ http-bio-8080-exec-4:10724465 ] - [ DEBUG ] [exchange: 4] Request connection for {}->http://4gqos.h2comm.com.cn:8090
+2020-01-11 18:24:45 [ http-bio-8080-exec-4:10724465 ] - [ DEBUG ] Connection request: [route: {}->http://4gqos.h2comm.com.cn:8090][total kept alive: 0; route allocated: 0 of 100; total allocated: 0 of 100]
+2020-01-11 18:24:45 [ http-bio-8080-exec-4:10724482 ] - [ INFO ] AsynPost has sent {"Partner_ID":"moonbay","security_token":"","ResourceFeatureProperties":[{"FlowProperties":[{"DestinationIpAddress":"8.8.8.8","MaximumUpStreamSpeedRate":"204800","MaximumDownStreamSpeedRate":"204800","Protocol":"2","Direction":"2","DestinationPort":"53"}],"Type":"0","Priority":"15"},{"MinimumDownStreamSpeedRate":"51200","MinimumUpStreamSpeedRate":"51200"}],"Duration":"300","UserIdentifier":{"PublicIP":"183.193.178.9","IP":"10.8.0.2"},"ServiceId":"Games100K"}
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725239 ] - [ DEBUG ] Connection leased: [id: http-outgoing-3][route: {}->http://4gqos.h2comm.com.cn:8090][total kept alive: 0; route allocated: 1 of 100; total allocated: 0 of 100]
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725239 ] - [ DEBUG ] [exchange: 4] Connection allocated: CPoolProxy{http-outgoing-3 [ACTIVE]}
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725239 ] - [ DEBUG ] http-outgoing-3 192.168.3.7:62904<->120.52.72.82:8090[ACTIVE][r:]: Set attribute http.nio.exchange-handler
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725240 ] - [ DEBUG ] http-outgoing-3 192.168.3.7:62904<->120.52.72.82:8090[ACTIVE][rw:]: Event set [w]
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725240 ] - [ DEBUG ] http-outgoing-3 192.168.3.7:62904<->120.52.72.82:8090[ACTIVE][rw:]: Set timeout 0
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725240 ] - [ DEBUG ] http-outgoing-3 [ACTIVE]: Connected
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725240 ] - [ DEBUG ] http-outgoing-3 192.168.3.7:62904<->120.52.72.82:8090[ACTIVE][rw:]: Set attribute http.nio.http-exchange-state
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725240 ] - [ DEBUG ] [exchange: 4] Start connection routing
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725240 ] - [ DEBUG ] [exchange: 4] route completed
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725240 ] - [ DEBUG ] [exchange: 4] Connection route established
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725240 ] - [ DEBUG ] [exchange: 4] Attempt 1 to execute request
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725240 ] - [ DEBUG ] [exchange: 4] Target auth state: UNCHALLENGED
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725240 ] - [ DEBUG ] [exchange: 4] Proxy auth state: UNCHALLENGED
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725240 ] - [ DEBUG ] http-outgoing-3 192.168.3.7:62904<->120.52.72.82:8090[ACTIVE][rw:]: Set timeout 50000
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725240 ] - [ DEBUG ] http-outgoing-3 >> POST /ivsp/services/AACAPIV1/applyTecentGamesQoS HTTP/1.1
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725240 ] - [ DEBUG ] http-outgoing-3 >> Content-Type: application/json;charset=utf-8
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725240 ] - [ DEBUG ] http-outgoing-3 >> Accept: application/json
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725240 ] - [ DEBUG ] http-outgoing-3 >> Content-Length: 462
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725240 ] - [ DEBUG ] http-outgoing-3 >> Host: 4gqos.h2comm.com.cn:8090
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725240 ] - [ DEBUG ] http-outgoing-3 >> Connection: Keep-Alive
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725241 ] - [ DEBUG ] http-outgoing-3 >> User-Agent: Apache-HttpAsyncClient/4.1.4 (Java/1.8.0_192)
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725241 ] - [ DEBUG ] http-outgoing-3 192.168.3.7:62904<->120.52.72.82:8090[ACTIVE][rw:]: Event set [w]
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725241 ] - [ DEBUG ] http-outgoing-3 [ACTIVE] Output ready
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725241 ] - [ DEBUG ] [exchange: 4] produce content
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725241 ] - [ DEBUG ] [exchange: 4] Request completed
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725241 ] - [ DEBUG ] http-outgoing-3 [ACTIVE] [content length: 462; pos: 462; completed: true]
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725242 ] - [ DEBUG ] http-outgoing-3 192.168.3.7:62904<->120.52.72.82:8090[ACTIVE][rw:w]: 731 bytes written
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725242 ] - [ DEBUG ] http-outgoing-3 >> "POST /ivsp/services/AACAPIV1/applyTecentGamesQoS HTTP/1.1[\r][\n]"
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725242 ] - [ DEBUG ] http-outgoing-3 >> "Content-Type: application/json;charset=utf-8[\r][\n]"
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725242 ] - [ DEBUG ] http-outgoing-3 >> "Accept: application/json[\r][\n]"
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725242 ] - [ DEBUG ] http-outgoing-3 >> "Content-Length: 462[\r][\n]"
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725242 ] - [ DEBUG ] http-outgoing-3 >> "Host: 4gqos.h2comm.com.cn:8090[\r][\n]"
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725242 ] - [ DEBUG ] http-outgoing-3 >> "Connection: Keep-Alive[\r][\n]"
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725242 ] - [ DEBUG ] http-outgoing-3 >> "User-Agent: Apache-HttpAsyncClient/4.1.4 (Java/1.8.0_192)[\r][\n]"
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725242 ] - [ DEBUG ] http-outgoing-3 >> "[\r][\n]"
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725242 ] - [ DEBUG ] http-outgoing-3 >> "{"Partner_ID":"moonbay","security_token":"","ResourceFeatureProperties":[{"FlowProperties":[{"DestinationIpAddress":"8.8.8.8","MaximumUpStreamSpeedRate":"204800","MaximumDownStreamSpeedRate":"204800","Protocol":"2","Direction":"2","DestinationPort":"53"}],"Type":"0","Priority":"15"},{"MinimumDownStreamSpeedRate":"51200","MinimumUpStreamSpeedRate":"51200"}],"Duration":"300","UserIdentifier":{"PublicIP":"183.193.178.9","IP":"10.8.0.2"},"ServiceId":"Games100K"}"
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725242 ] - [ DEBUG ] http-outgoing-3 [ACTIVE] Request ready
+2020-01-11 18:24:46 [ I/O dispatcher 13:10725242 ] - [ DEBUG ] http-outgoing-3 192.168.3.7:62904<->120.52.72.82:8090[ACTIVE][r:w]: Event cleared [w]
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735309 ] - [ DEBUG ] http-outgoing-3 192.168.3.7:62904<->120.52.72.82:8090[ACTIVE][r:r]: 405 bytes read
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735309 ] - [ DEBUG ] http-outgoing-3 << "HTTP/1.1 504 Gateway Time-out[\r][\n]"
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735309 ] - [ DEBUG ] http-outgoing-3 << "Server: openresty/1.13.6.2[\r][\n]"
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735309 ] - [ DEBUG ] http-outgoing-3 << "Date: Sat, 11 Jan 2020 10:24:56 GMT[\r][\n]"
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735309 ] - [ DEBUG ] http-outgoing-3 << "Content-Type: text/html; charset=utf-8[\r][\n]"
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735309 ] - [ DEBUG ] http-outgoing-3 << "Content-Length: 189[\r][\n]"
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735309 ] - [ DEBUG ] http-outgoing-3 << "Connection: keep-alive[\r][\n]"
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735309 ] - [ DEBUG ] http-outgoing-3 << "Kss-Upstream: 120.52.72.22:8080[\r][\n]"
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735309 ] - [ DEBUG ] http-outgoing-3 << "[\r][\n]"
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735309 ] - [ DEBUG ] http-outgoing-3 << "<html>[\r][\n]"
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735309 ] - [ DEBUG ] http-outgoing-3 << "<head><title>504 Gateway Time-out</title></head>[\r][\n]"
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735309 ] - [ DEBUG ] http-outgoing-3 << "<body bgcolor="white">[\r][\n]"
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735309 ] - [ DEBUG ] http-outgoing-3 << "<center><h1>504 Gateway Time-out</h1></center>[\r][\n]"
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735309 ] - [ DEBUG ] http-outgoing-3 << "<hr><center>openresty/1.13.6.2</center>[\r][\n]"
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735309 ] - [ DEBUG ] http-outgoing-3 << "</body>[\r][\n]"
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735309 ] - [ DEBUG ] http-outgoing-3 << "</html>[\r][\n]"
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735310 ] - [ DEBUG ] http-outgoing-3 << HTTP/1.1 504 Gateway Time-out
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735310 ] - [ DEBUG ] http-outgoing-3 << Server: openresty/1.13.6.2
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735310 ] - [ DEBUG ] http-outgoing-3 << Date: Sat, 11 Jan 2020 10:24:56 GMT
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735310 ] - [ DEBUG ] http-outgoing-3 << Content-Type: text/html; charset=utf-8
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735310 ] - [ DEBUG ] http-outgoing-3 << Content-Length: 189
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735310 ] - [ DEBUG ] http-outgoing-3 << Connection: keep-alive
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735310 ] - [ DEBUG ] http-outgoing-3 << Kss-Upstream: 120.52.72.22:8080
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735310 ] - [ DEBUG ] http-outgoing-3 [ACTIVE(189)] Response received
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735310 ] - [ DEBUG ] [exchange: 4] Response received HTTP/1.1 504 Gateway Time-out
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735310 ] - [ DEBUG ] http-outgoing-3 [ACTIVE(189)] Input ready
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735310 ] - [ DEBUG ] [exchange: 4] Consume content
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735310 ] - [ DEBUG ] [exchange: 4] Connection can be kept alive indefinitely
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735310 ] - [ DEBUG ] [exchange: 4] Response processed
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735310 ] - [ DEBUG ] [exchange: 4] releasing connection
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735310 ] - [ DEBUG ] http-outgoing-3 192.168.3.7:62904<->120.52.72.82:8090[ACTIVE][r:r]: Remove attribute http.nio.exchange-handler
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735310 ] - [ DEBUG ] Releasing connection: [id: http-outgoing-3][route: {}->http://4gqos.h2comm.com.cn:8090][total kept alive: 0; route allocated: 1 of 100; total allocated: 1 of 100]
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735311 ] - [ DEBUG ] Connection [id: http-outgoing-3][route: {}->http://4gqos.h2comm.com.cn:8090] can be kept alive indefinitely
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735311 ] - [ DEBUG ] http-outgoing-3 192.168.3.7:62904<->120.52.72.82:8090[ACTIVE][r:r]: Set timeout 0
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735311 ] - [ DEBUG ] Connection released: [id: http-outgoing-3][route: {}->http://4gqos.h2comm.com.cn:8090][total kept alive: 1; route allocated: 1 of 100; total allocated: 1 of 100]
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735311 ] - [ INFO ] netinfo speed response<html>
+<head><title>504 Gateway Time-out</title></head>
+<body bgcolor="white">
+<center><h1>504 Gateway Time-out</h1></center>
+<hr><center>openresty/1.13.6.2</center>
+</body>
+</html>
+
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735311 ] - [ INFO ] netinfo speed response is not jsonobject
+2020-01-11 18:24:56 [ I/O dispatcher 13:10735429 ] - [ DEBUG ] http-outgoing-3 [ACTIVE] [content length: 189; pos: 189; completed: true]
+2020-01-11 18:26:56 [ I/O dispatcher 13:10855302 ] - [ DEBUG ] http-outgoing-3 192.168.3.7:62904<->120.52.72.82:8090[ACTIVE][r:r]: -1 bytes read
+2020-01-11 18:26:56 [ I/O dispatcher 13:10855302 ] - [ DEBUG ] http-outgoing-3 [ACTIVE] End of input
+2020-01-11 18:26:56 [ I/O dispatcher 13:10855303 ] - [ DEBUG ] http-outgoing-3 192.168.3.7:62904<->120.52.72.82:8090[ACTIVE][r:r]: Set timeout 1000
+2020-01-11 18:26:56 [ I/O dispatcher 13:10855303 ] - [ DEBUG ] http-outgoing-3 192.168.3.7:62904<->120.52.72.82:8090[ACTIVE][r:r]: Close
+2020-01-11 18:26:56 [ I/O dispatcher 13:10855304 ] - [ DEBUG ] http-outgoing-3 [CLOSED]: Disconnected
+2020-01-11 22:32:09 [ http-bio-8080-exec-6:25568901 ] - [ INFO ] response is {"params":{"RemoteAddress":"8.8.8.8","LocalAddress":"10.8.0.2","PackageName":"com.tencent.tmgp.sgame","LocalPort":"-9248","RemotePort":"53","Protocol":"2","Result":"success","AppName":"王者荣耀"}} 1
+2020-01-11 22:32:09 [ http-bio-8080-exec-6:25568917 ] - [ INFO ] received speed item 8.8.8.8 -9248 1
+2020-01-11 22:32:10 [ http-bio-8080-exec-6:25569135 ] - [ INFO ] RequestDAO is 8.8.8.8 -9248 1
+2020-01-11 22:32:10 [ http-bio-8080-exec-6:25569135 ] - [ INFO ] netinfo has added into the queue 8.8.8.8 -9248 1
+2020-01-11 22:32:10 [ http-bio-8080-exec-6:25569151 ] - [ DEBUG ] [exchange: 5] start execution
+2020-01-11 22:32:10 [ http-bio-8080-exec-6:25569151 ] - [ DEBUG ] CookieSpec selected: default
+2020-01-11 22:32:10 [ http-bio-8080-exec-6:25569151 ] - [ DEBUG ] Auth cache not set in the context
+2020-01-11 22:32:10 [ http-bio-8080-exec-6:25569151 ] - [ DEBUG ] [exchange: 5] Request connection for {}->http://4gqos.h2comm.com.cn:8090
+2020-01-11 22:32:10 [ http-bio-8080-exec-6:25569151 ] - [ DEBUG ] Connection request: [route: {}->http://4gqos.h2comm.com.cn:8090][total kept alive: 0; route allocated: 0 of 100; total allocated: 0 of 100]
+2020-01-11 22:32:10 [ http-bio-8080-exec-6:25569198 ] - [ INFO ] AsynPost has sent {"Partner_ID":"moonbay","security_token":"","ResourceFeatureProperties":[{"FlowProperties":[{"DestinationIpAddress":"8.8.8.8","MaximumUpStreamSpeedRate":"512000","MaximumDownStreamSpeedRate":"512000","Protocol":"2","Direction":"2","DestinationPort":"53"}],"Type":"3","Priority":"15"},{"MinimumDownStreamSpeedRate":"307200","MinimumUpStreamSpeedRate":"307200"}],"Duration":"300","UserIdentifier":{"PublicIP":"183.193.178.9","IP":"10.8.0.2"},"ServiceId":"Games100K"}
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] Connection leased: [id: http-outgoing-4][route: {}->http://4gqos.h2comm.com.cn:8090][total kept alive: 0; route allocated: 1 of 100; total allocated: 0 of 100]
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] [exchange: 5] Connection allocated: CPoolProxy{http-outgoing-4 [ACTIVE]}
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] http-outgoing-4 192.168.3.7:54303<->120.52.72.82:8090[ACTIVE][r:]: Set attribute http.nio.exchange-handler
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] http-outgoing-4 192.168.3.7:54303<->120.52.72.82:8090[ACTIVE][rw:]: Event set [w]
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] http-outgoing-4 192.168.3.7:54303<->120.52.72.82:8090[ACTIVE][rw:]: Set timeout 0
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] http-outgoing-4 [ACTIVE]: Connected
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] http-outgoing-4 192.168.3.7:54303<->120.52.72.82:8090[ACTIVE][rw:]: Set attribute http.nio.http-exchange-state
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] [exchange: 5] Start connection routing
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] [exchange: 5] route completed
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] [exchange: 5] Connection route established
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] [exchange: 5] Attempt 1 to execute request
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] [exchange: 5] Target auth state: UNCHALLENGED
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] [exchange: 5] Proxy auth state: UNCHALLENGED
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] http-outgoing-4 192.168.3.7:54303<->120.52.72.82:8090[ACTIVE][rw:]: Set timeout 50000
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] http-outgoing-4 >> POST /ivsp/services/AACAPIV1/applyTecentGamesQoS HTTP/1.1
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] http-outgoing-4 >> Content-Type: application/json;charset=utf-8
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] http-outgoing-4 >> Accept: application/json
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] http-outgoing-4 >> Content-Length: 464
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] http-outgoing-4 >> Host: 4gqos.h2comm.com.cn:8090
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] http-outgoing-4 >> Connection: Keep-Alive
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] http-outgoing-4 >> User-Agent: Apache-HttpAsyncClient/4.1.4 (Java/1.8.0_192)
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] http-outgoing-4 192.168.3.7:54303<->120.52.72.82:8090[ACTIVE][rw:]: Event set [w]
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] http-outgoing-4 [ACTIVE] Output ready
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] [exchange: 5] produce content
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] [exchange: 5] Request completed
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] http-outgoing-4 [ACTIVE] [content length: 464; pos: 464; completed: true]
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] http-outgoing-4 192.168.3.7:54303<->120.52.72.82:8090[ACTIVE][rw:w]: 733 bytes written
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] http-outgoing-4 >> "POST /ivsp/services/AACAPIV1/applyTecentGamesQoS HTTP/1.1[\r][\n]"
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] http-outgoing-4 >> "Content-Type: application/json;charset=utf-8[\r][\n]"
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] http-outgoing-4 >> "Accept: application/json[\r][\n]"
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] http-outgoing-4 >> "Content-Length: 464[\r][\n]"
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] http-outgoing-4 >> "Host: 4gqos.h2comm.com.cn:8090[\r][\n]"
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] http-outgoing-4 >> "Connection: Keep-Alive[\r][\n]"
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] http-outgoing-4 >> "User-Agent: Apache-HttpAsyncClient/4.1.4 (Java/1.8.0_192)[\r][\n]"
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] http-outgoing-4 >> "[\r][\n]"
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] http-outgoing-4 >> "{"Partner_ID":"moonbay","security_token":"","ResourceFeatureProperties":[{"FlowProperties":[{"DestinationIpAddress":"8.8.8.8","MaximumUpStreamSpeedRate":"512000","MaximumDownStreamSpeedRate":"512000","Protocol":"2","Direction":"2","DestinationPort":"53"}],"Type":"3","Priority":"15"},{"MinimumDownStreamSpeedRate":"307200","MinimumUpStreamSpeedRate":"307200"}],"Duration":"300","UserIdentifier":{"PublicIP":"183.193.178.9","IP":"10.8.0.2"},"ServiceId":"Games100K"}"
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] http-outgoing-4 [ACTIVE] Request ready
+2020-01-11 22:32:10 [ I/O dispatcher 17:25569260 ] - [ DEBUG ] http-outgoing-4 192.168.3.7:54303<->120.52.72.82:8090[ACTIVE][r:w]: Event cleared [w]
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579321 ] - [ DEBUG ] http-outgoing-4 192.168.3.7:54303<->120.52.72.82:8090[ACTIVE][r:r]: 405 bytes read
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579321 ] - [ DEBUG ] http-outgoing-4 << "HTTP/1.1 504 Gateway Time-out[\r][\n]"
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579321 ] - [ DEBUG ] http-outgoing-4 << "Server: openresty/1.13.6.2[\r][\n]"
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579321 ] - [ DEBUG ] http-outgoing-4 << "Date: Sat, 11 Jan 2020 14:32:19 GMT[\r][\n]"
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579321 ] - [ DEBUG ] http-outgoing-4 << "Content-Type: text/html; charset=utf-8[\r][\n]"
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579321 ] - [ DEBUG ] http-outgoing-4 << "Content-Length: 189[\r][\n]"
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579321 ] - [ DEBUG ] http-outgoing-4 << "Connection: keep-alive[\r][\n]"
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579321 ] - [ DEBUG ] http-outgoing-4 << "Kss-Upstream: 120.52.72.22:8080[\r][\n]"
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579321 ] - [ DEBUG ] http-outgoing-4 << "[\r][\n]"
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579321 ] - [ DEBUG ] http-outgoing-4 << "<html>[\r][\n]"
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579321 ] - [ DEBUG ] http-outgoing-4 << "<head><title>504 Gateway Time-out</title></head>[\r][\n]"
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579321 ] - [ DEBUG ] http-outgoing-4 << "<body bgcolor="white">[\r][\n]"
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579321 ] - [ DEBUG ] http-outgoing-4 << "<center><h1>504 Gateway Time-out</h1></center>[\r][\n]"
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579321 ] - [ DEBUG ] http-outgoing-4 << "<hr><center>openresty/1.13.6.2</center>[\r][\n]"
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579321 ] - [ DEBUG ] http-outgoing-4 << "</body>[\r][\n]"
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579321 ] - [ DEBUG ] http-outgoing-4 << "</html>[\r][\n]"
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579321 ] - [ DEBUG ] http-outgoing-4 << HTTP/1.1 504 Gateway Time-out
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579321 ] - [ DEBUG ] http-outgoing-4 << Server: openresty/1.13.6.2
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579321 ] - [ DEBUG ] http-outgoing-4 << Date: Sat, 11 Jan 2020 14:32:19 GMT
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579321 ] - [ DEBUG ] http-outgoing-4 << Content-Type: text/html; charset=utf-8
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579321 ] - [ DEBUG ] http-outgoing-4 << Content-Length: 189
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579321 ] - [ DEBUG ] http-outgoing-4 << Connection: keep-alive
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579321 ] - [ DEBUG ] http-outgoing-4 << Kss-Upstream: 120.52.72.22:8080
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579321 ] - [ DEBUG ] http-outgoing-4 [ACTIVE(189)] Response received
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579321 ] - [ DEBUG ] [exchange: 5] Response received HTTP/1.1 504 Gateway Time-out
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579321 ] - [ DEBUG ] http-outgoing-4 [ACTIVE(189)] Input ready
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579321 ] - [ DEBUG ] [exchange: 5] Consume content
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579321 ] - [ DEBUG ] [exchange: 5] Connection can be kept alive indefinitely
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579321 ] - [ DEBUG ] [exchange: 5] Response processed
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579321 ] - [ DEBUG ] [exchange: 5] releasing connection
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579321 ] - [ DEBUG ] http-outgoing-4 192.168.3.7:54303<->120.52.72.82:8090[ACTIVE][r:r]: Remove attribute http.nio.exchange-handler
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579321 ] - [ DEBUG ] Releasing connection: [id: http-outgoing-4][route: {}->http://4gqos.h2comm.com.cn:8090][total kept alive: 0; route allocated: 1 of 100; total allocated: 1 of 100]
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579321 ] - [ DEBUG ] Connection [id: http-outgoing-4][route: {}->http://4gqos.h2comm.com.cn:8090] can be kept alive indefinitely
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579321 ] - [ DEBUG ] http-outgoing-4 192.168.3.7:54303<->120.52.72.82:8090[ACTIVE][r:r]: Set timeout 0
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579321 ] - [ DEBUG ] Connection released: [id: http-outgoing-4][route: {}->http://4gqos.h2comm.com.cn:8090][total kept alive: 1; route allocated: 1 of 100; total allocated: 1 of 100]
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579321 ] - [ INFO ] netinfo speed response<html>
+<head><title>504 Gateway Time-out</title></head>
+<body bgcolor="white">
+<center><h1>504 Gateway Time-out</h1></center>
+<hr><center>openresty/1.13.6.2</center>
+</body>
+</html>
+
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579336 ] - [ INFO ] netinfo speed response is not jsonobject
+2020-01-11 22:32:20 [ I/O dispatcher 17:25579524 ] - [ DEBUG ] http-outgoing-4 [ACTIVE] [content length: 189; pos: 189; completed: true]
+2020-01-11 22:32:21 [ http-bio-8080-exec-6:25580820 ] - [ INFO ] response is {"params":{"RemoteAddress":"8.8.8.8","LocalAddress":"10.8.0.2","PackageName":"com.tencent.tmgp.sgame","LocalPort":"-9248","RemotePort":"53","Protocol":"2","Result":"success","AppName":"王者荣耀"}} 0
+2020-01-11 22:32:21 [ http-bio-8080-exec-6:25580820 ] - [ INFO ] received speed item 8.8.8.8 -9248 1
+2020-01-11 22:32:21 [ http-bio-8080-exec-6:25580961 ] - [ INFO ] netinfo has found in delete 8.8.8.8 -9248 1
+2020-01-11 22:32:21 [ http-bio-8080-exec-5:25581023 ] - [ INFO ] response is {"params":{"RemoteAddress":"182.254.116.117","LocalAddress":"10.8.0.2","PackageName":"com.qiyi.video","LocalPort":"-17686","RemotePort":"80","Protocol":"0","Result":"success","AppName":"爱奇艺"}} 1
+2020-01-11 22:32:21 [ http-bio-8080-exec-5:25581023 ] - [ INFO ] received speed item 182.254.116.117 -17686 1
+2020-01-11 22:32:22 [ http-bio-8080-exec-5:25581070 ] - [ INFO ] RequestDAO is 182.254.116.117 -17686 1
+2020-01-11 22:32:22 [ http-bio-8080-exec-5:25581070 ] - [ INFO ] netinfo has added into the queue 182.254.116.117 -17686 1
+2020-01-11 22:32:22 [ http-bio-8080-exec-5:25581070 ] - [ DEBUG ] [exchange: 6] start execution
+2020-01-11 22:32:22 [ http-bio-8080-exec-5:25581070 ] - [ DEBUG ] CookieSpec selected: default
+2020-01-11 22:32:22 [ http-bio-8080-exec-5:25581070 ] - [ DEBUG ] Auth cache not set in the context
+2020-01-11 22:32:22 [ http-bio-8080-exec-5:25581070 ] - [ DEBUG ] [exchange: 6] Request connection for {}->http://4gqos.h2comm.com.cn:8090
+2020-01-11 22:32:22 [ http-bio-8080-exec-5:25581070 ] - [ DEBUG ] Connection request: [route: {}->http://4gqos.h2comm.com.cn:8090][total kept alive: 0; route allocated: 0 of 100; total allocated: 0 of 100]
+2020-01-11 22:32:22 [ http-bio-8080-exec-5:25581070 ] - [ INFO ] AsynPost has sent {"Partner_ID":"moonbay","security_token":"","ResourceFeatureProperties":[{"FlowProperties":[{"DestinationIpAddress":"182.254.116.117","MaximumUpStreamSpeedRate":"512000","MaximumDownStreamSpeedRate":"2048000","Protocol":"0","Direction":"2","DestinationPort":"80"}],"Type":"1","Priority":"15"},{"MinimumDownStreamSpeedRate":"1024000","MinimumUpStreamSpeedRate":"204800"}],"Duration":"300","UserIdentifier":{"PublicIP":"183.193.178.9","IP":"10.8.0.2"},"ServiceId":"Games100K"}
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] Connection leased: [id: http-outgoing-5][route: {}->http://4gqos.h2comm.com.cn:8090][total kept alive: 0; route allocated: 1 of 100; total allocated: 0 of 100]
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] [exchange: 6] Connection allocated: CPoolProxy{http-outgoing-5 [ACTIVE]}
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] http-outgoing-5 192.168.3.7:54329<->120.52.72.82:8090[ACTIVE][r:]: Set attribute http.nio.exchange-handler
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] http-outgoing-5 192.168.3.7:54329<->120.52.72.82:8090[ACTIVE][rw:]: Event set [w]
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] http-outgoing-5 192.168.3.7:54329<->120.52.72.82:8090[ACTIVE][rw:]: Set timeout 0
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] http-outgoing-5 [ACTIVE]: Connected
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] http-outgoing-5 192.168.3.7:54329<->120.52.72.82:8090[ACTIVE][rw:]: Set attribute http.nio.http-exchange-state
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] [exchange: 6] Start connection routing
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] [exchange: 6] route completed
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] [exchange: 6] Connection route established
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] [exchange: 6] Attempt 1 to execute request
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] [exchange: 6] Target auth state: UNCHALLENGED
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] [exchange: 6] Proxy auth state: UNCHALLENGED
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] http-outgoing-5 192.168.3.7:54329<->120.52.72.82:8090[ACTIVE][rw:]: Set timeout 50000
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] http-outgoing-5 >> POST /ivsp/services/AACAPIV1/applyTecentGamesQoS HTTP/1.1
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] http-outgoing-5 >> Content-Type: application/json;charset=utf-8
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] http-outgoing-5 >> Accept: application/json
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] http-outgoing-5 >> Content-Length: 474
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] http-outgoing-5 >> Host: 4gqos.h2comm.com.cn:8090
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] http-outgoing-5 >> Connection: Keep-Alive
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] http-outgoing-5 >> User-Agent: Apache-HttpAsyncClient/4.1.4 (Java/1.8.0_192)
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] http-outgoing-5 192.168.3.7:54329<->120.52.72.82:8090[ACTIVE][rw:]: Event set [w]
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] http-outgoing-5 [ACTIVE] Output ready
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] [exchange: 6] produce content
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] [exchange: 6] Request completed
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] http-outgoing-5 [ACTIVE] [content length: 474; pos: 474; completed: true]
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] http-outgoing-5 192.168.3.7:54329<->120.52.72.82:8090[ACTIVE][rw:w]: 743 bytes written
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] http-outgoing-5 >> "POST /ivsp/services/AACAPIV1/applyTecentGamesQoS HTTP/1.1[\r][\n]"
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] http-outgoing-5 >> "Content-Type: application/json;charset=utf-8[\r][\n]"
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] http-outgoing-5 >> "Accept: application/json[\r][\n]"
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] http-outgoing-5 >> "Content-Length: 474[\r][\n]"
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] http-outgoing-5 >> "Host: 4gqos.h2comm.com.cn:8090[\r][\n]"
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] http-outgoing-5 >> "Connection: Keep-Alive[\r][\n]"
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] http-outgoing-5 >> "User-Agent: Apache-HttpAsyncClient/4.1.4 (Java/1.8.0_192)[\r][\n]"
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] http-outgoing-5 >> "[\r][\n]"
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] http-outgoing-5 >> "{"Partner_ID":"moonbay","security_token":"","ResourceFeatureProperties":[{"FlowProperties":[{"DestinationIpAddress":"182.254.116.117","MaximumUpStreamSpeedRate":"512000","MaximumDownStreamSpeedRate":"2048000","Protocol":"0","Direction":"2","DestinationPort":"80"}],"Type":"1","Priority":"15"},{"MinimumDownStreamSpeedRate":"1024000","MinimumUpStreamSpeedRate":"204800"}],"Duration":"300","UserIdentifier":{"PublicIP":"183.193.178.9","IP":"10.8.0.2"},"ServiceId":"Games100K"}"
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] http-outgoing-5 [ACTIVE] Request ready
+2020-01-11 22:32:22 [ I/O dispatcher 21:25581132 ] - [ DEBUG ] http-outgoing-5 192.168.3.7:54329<->120.52.72.82:8090[ACTIVE][r:w]: Event cleared [w]
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591193 ] - [ DEBUG ] http-outgoing-5 192.168.3.7:54329<->120.52.72.82:8090[ACTIVE][r:r]: 405 bytes read
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591193 ] - [ DEBUG ] http-outgoing-5 << "HTTP/1.1 504 Gateway Time-out[\r][\n]"
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591193 ] - [ DEBUG ] http-outgoing-5 << "Server: openresty/1.13.6.2[\r][\n]"
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591193 ] - [ DEBUG ] http-outgoing-5 << "Date: Sat, 11 Jan 2020 14:32:31 GMT[\r][\n]"
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591193 ] - [ DEBUG ] http-outgoing-5 << "Content-Type: text/html; charset=utf-8[\r][\n]"
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591193 ] - [ DEBUG ] http-outgoing-5 << "Content-Length: 189[\r][\n]"
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591193 ] - [ DEBUG ] http-outgoing-5 << "Connection: keep-alive[\r][\n]"
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591193 ] - [ DEBUG ] http-outgoing-5 << "Kss-Upstream: 120.52.72.22:8080[\r][\n]"
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591193 ] - [ DEBUG ] http-outgoing-5 << "[\r][\n]"
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591193 ] - [ DEBUG ] http-outgoing-5 << "<html>[\r][\n]"
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591193 ] - [ DEBUG ] http-outgoing-5 << "<head><title>504 Gateway Time-out</title></head>[\r][\n]"
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591193 ] - [ DEBUG ] http-outgoing-5 << "<body bgcolor="white">[\r][\n]"
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591193 ] - [ DEBUG ] http-outgoing-5 << "<center><h1>504 Gateway Time-out</h1></center>[\r][\n]"
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591193 ] - [ DEBUG ] http-outgoing-5 << "<hr><center>openresty/1.13.6.2</center>[\r][\n]"
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591193 ] - [ DEBUG ] http-outgoing-5 << "</body>[\r][\n]"
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591193 ] - [ DEBUG ] http-outgoing-5 << "</html>[\r][\n]"
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591193 ] - [ DEBUG ] http-outgoing-5 << HTTP/1.1 504 Gateway Time-out
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591193 ] - [ DEBUG ] http-outgoing-5 << Server: openresty/1.13.6.2
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591193 ] - [ DEBUG ] http-outgoing-5 << Date: Sat, 11 Jan 2020 14:32:31 GMT
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591193 ] - [ DEBUG ] http-outgoing-5 << Content-Type: text/html; charset=utf-8
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591193 ] - [ DEBUG ] http-outgoing-5 << Content-Length: 189
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591193 ] - [ DEBUG ] http-outgoing-5 << Connection: keep-alive
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591193 ] - [ DEBUG ] http-outgoing-5 << Kss-Upstream: 120.52.72.22:8080
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591193 ] - [ DEBUG ] http-outgoing-5 [ACTIVE(189)] Response received
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591193 ] - [ DEBUG ] [exchange: 6] Response received HTTP/1.1 504 Gateway Time-out
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591193 ] - [ DEBUG ] http-outgoing-5 [ACTIVE(189)] Input ready
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591193 ] - [ DEBUG ] [exchange: 6] Consume content
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591193 ] - [ DEBUG ] [exchange: 6] Connection can be kept alive indefinitely
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591193 ] - [ DEBUG ] [exchange: 6] Response processed
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591193 ] - [ DEBUG ] [exchange: 6] releasing connection
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591193 ] - [ DEBUG ] http-outgoing-5 192.168.3.7:54329<->120.52.72.82:8090[ACTIVE][r:r]: Remove attribute http.nio.exchange-handler
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591193 ] - [ DEBUG ] Releasing connection: [id: http-outgoing-5][route: {}->http://4gqos.h2comm.com.cn:8090][total kept alive: 0; route allocated: 1 of 100; total allocated: 1 of 100]
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591193 ] - [ DEBUG ] Connection [id: http-outgoing-5][route: {}->http://4gqos.h2comm.com.cn:8090] can be kept alive indefinitely
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591193 ] - [ DEBUG ] http-outgoing-5 192.168.3.7:54329<->120.52.72.82:8090[ACTIVE][r:r]: Set timeout 0
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591193 ] - [ DEBUG ] Connection released: [id: http-outgoing-5][route: {}->http://4gqos.h2comm.com.cn:8090][total kept alive: 1; route allocated: 1 of 100; total allocated: 1 of 100]
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591193 ] - [ INFO ] netinfo speed response<html>
+<head><title>504 Gateway Time-out</title></head>
+<body bgcolor="white">
+<center><h1>504 Gateway Time-out</h1></center>
+<hr><center>openresty/1.13.6.2</center>
+</body>
+</html>
+
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591193 ] - [ INFO ] netinfo speed response is not jsonobject
+2020-01-11 22:32:32 [ I/O dispatcher 21:25591208 ] - [ DEBUG ] http-outgoing-5 [ACTIVE] [content length: 189; pos: 189; completed: true]
+2020-01-11 22:32:38 [ http-bio-8080-exec-5:25597379 ] - [ INFO ] response is {"params":{"RemoteAddress":"182.254.116.117","LocalAddress":"10.8.0.2","PackageName":"com.qiyi.video","LocalPort":"-17686","RemotePort":"80","Protocol":"0","Result":"success","AppName":"爱奇艺"}} 0
+2020-01-11 22:32:38 [ http-bio-8080-exec-5:25597394 ] - [ INFO ] received speed item 182.254.116.117 -17686 1
+2020-01-11 22:32:38 [ http-bio-8080-exec-5:25597472 ] - [ INFO ] netinfo has found in delete 182.254.116.117 -17686 1
+2020-01-11 22:34:20 [ I/O dispatcher 17:25699324 ] - [ DEBUG ] http-outgoing-4 192.168.3.7:54303<->120.52.72.82:8090[ACTIVE][r:r]: -1 bytes read
+2020-01-11 22:34:20 [ I/O dispatcher 17:25699324 ] - [ DEBUG ] http-outgoing-4 [ACTIVE] End of input
+2020-01-11 22:34:20 [ I/O dispatcher 17:25699324 ] - [ DEBUG ] http-outgoing-4 192.168.3.7:54303<->120.52.72.82:8090[ACTIVE][r:r]: Set timeout 1000
+2020-01-11 22:34:20 [ I/O dispatcher 17:25699324 ] - [ DEBUG ] http-outgoing-4 192.168.3.7:54303<->120.52.72.82:8090[ACTIVE][r:r]: Close
+2020-01-11 22:34:20 [ I/O dispatcher 17:25699324 ] - [ DEBUG ] http-outgoing-4 [CLOSED]: Disconnected
+2020-01-11 22:34:32 [ I/O dispatcher 21:25711196 ] - [ DEBUG ] http-outgoing-5 192.168.3.7:54329<->120.52.72.82:8090[ACTIVE][r:r]: -1 bytes read
+2020-01-11 22:34:32 [ I/O dispatcher 21:25711196 ] - [ DEBUG ] http-outgoing-5 [ACTIVE] End of input
+2020-01-11 22:34:32 [ I/O dispatcher 21:25711196 ] - [ DEBUG ] http-outgoing-5 192.168.3.7:54329<->120.52.72.82:8090[ACTIVE][r:r]: Set timeout 1000
+2020-01-11 22:34:32 [ I/O dispatcher 21:25711196 ] - [ DEBUG ] http-outgoing-5 192.168.3.7:54329<->120.52.72.82:8090[ACTIVE][r:r]: Close
+2020-01-11 22:34:32 [ I/O dispatcher 21:25711196 ] - [ DEBUG ] http-outgoing-5 [CLOSED]: Disconnected
